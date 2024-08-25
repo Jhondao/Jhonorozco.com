@@ -4,7 +4,7 @@ export default function Maintenance() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="text-center">
-        <h1 className="text-5xl font-bold text-gray-800 mb-4">Trabajando en mi nueva imagen profesional 👲</h1>
+        <h1 className="text-5xl font-bold text-gray-800 mb-4">Trabajando en mi nueva imagen 👲</h1>
         <p className="text-lg text-gray-600 mb-8">
           Es momento de darle un giro al contenido profesional...
         </p>
