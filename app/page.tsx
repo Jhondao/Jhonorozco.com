@@ -1,5 +1,6 @@
 import Navbar from '@/components/navbar';
 import React from 'react';
+import Introduction from '../components/introduction';
 
 export default function Maintenance() {
   return (
@@ -39,6 +40,7 @@ export default function Maintenance() {
 
     <main className='pb-40'>
       <Navbar />
+      <Introduction />
     </main>
   );
 }
