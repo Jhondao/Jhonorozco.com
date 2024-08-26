@@ -1,6 +1,7 @@
 import { itemsNavbar } from '@/data'
 import { Link } from 'lucide-react'
 import React from 'react'
+import { ToggleTheme } from './toggle-theme'
 
 export default function Navbar() {
   return (
@@ -11,6 +12,7 @@ export default function Navbar() {
                     <a href={item.link}> {item.icon} </a>
                 </div>
             ))}
+            <ToggleTheme/>
         </div>
     </nav>
 )
