@@ -5,7 +5,7 @@ import { Mail, Paperclip } from 'lucide-react';
 
 import { buttonVariants } from './ui/button'
 
-import Container from './container';
+import Container from './shared/container';
 
 
 export default function Introduction() {
@@ -25,7 +25,7 @@ export default function Introduction() {
                     </Link>
                 </div>
             </div>
-            <Image src="/img-profile.jpeg" className='rounded-full mt-5' alt="Profile pic" width={500} height={500} />
+            <Image src="/img-profile.jpeg" className='rounded-full mt-10' alt="Profile pic" width={500} height={500} />
         </div>
     </Container>
   )
