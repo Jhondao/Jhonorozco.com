@@ -24,8 +24,8 @@ export default function Introduction() {
                         <Paperclip className='mr-2' /> Descargar CV
                     </Link>
                 </div>
-            </div>
             <Image src="/img-profile.jpeg" className='rounded-full mt-10' alt="Profile pic" width={500} height={500} />
+            </div>
         </div>
     </Container>
   )

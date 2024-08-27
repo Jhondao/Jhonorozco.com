@@ -2,6 +2,7 @@ import Navbar from '@/components/navbar';
 import React from 'react';
 import Introduction from '../components/introduction';
 import AboutMe from '@/components/about-me';
+import Experience from '../components/experience';
 
 export default function Maintenance() {
   return (
@@ -43,6 +44,7 @@ export default function Maintenance() {
       <Navbar />
       <Introduction />
       <AboutMe />
+      <Experience />
     </main>
   );
 }
