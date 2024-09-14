@@ -246,13 +246,7 @@ export const dataServices = [
             },
             {
                 name: "Producción de podcasts informativos y entretenidos",
-            },
-            {
-                name: "Generación de infografías claras y visualmente atractivas",
-            },
-            {
-                name: "Fotografía profesional para capturar momentos excepcionales",
-            },
+            }
         ],
     },
     {
@@ -287,22 +281,22 @@ export const dataContact = [
     {
         id: 1,
         title: "Teléfono",
-        subtitle: "+34 677 66 66 33",
-        link: "tel:+34677666633",
+        subtitle: "+57 3166293520",
+        link: "tel:+573166293520",
         icon: <Phone />,
     },
     {
         id: 2,
         title: "Github",
-        subtitle: "github.com/ratasi",
-        link: "github.com/ratasi",
+        subtitle: "github.com/jhondao",
+        link: "github.com/jhondao",
         icon: <Code2 />,
     },
     {
         id: 3,
         title: "Email",
-        subtitle: "email@email.com",
-        link: "mailto:test@test.com",
+        subtitle: "jhondao.desarrollo@hotmail.com",
+        link: "mailto:jhondao.desarrollo@hotmail.com25",
         icon: <Inbox />,
     },
 ];
