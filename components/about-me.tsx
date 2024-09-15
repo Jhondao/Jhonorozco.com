@@ -52,7 +52,7 @@ export default function AboutMe() {
             atractivas. Además, me mantengo actualizado en las últimas
             tendencias y tecnologías en el mundo del desarrollo web para poder
             ofrecer soluciones innovadoras y eficientes a mis clientes.
-            <br />
+            <br /><br />
             He trabajado en proyectos de diversa complejidad y tamaño, desde
             sitios web corporativos hasta aplicaciones web escalables y
             complejas. También tengo experiencia en la optimización de sitios

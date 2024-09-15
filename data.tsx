@@ -1,26 +1,5 @@
 import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench } from "lucide-react";
 
-export const dataAboutMe = [
-    {
-        id: 1,
-        name: "Experiencia",
-        icon: <Briefcase />,
-        description: "+5 años de experiencia",
-    },
-    {
-        id: 2,
-        name: "Clientes",
-        icon: <UsersRound />,
-        description: "+200 clientes satisfechos",
-    },
-    {
-        id: 3,
-        name: "Proyectos",
-        icon: <Wrench />,
-        description: "+50 completados",
-    },
-];
-
 export const itemsNavbar = [
     {
         id: 1,
@@ -54,6 +33,30 @@ export const itemsNavbar = [
     },
 ];
 
+
+export const dataAboutMe = [
+    {
+        id: 1,
+        name: "Experiencia",
+        icon: <Briefcase />,
+        description: "+5 años de experiencia",
+    },
+    {
+        id: 2,
+        name: "Clientes",
+        icon: <UsersRound />,
+        description: "+25 clientes satisfechos",
+    },
+    {
+        id: 3,
+        name: "Proyectos",
+        icon: <Wrench />,
+        description: "+25 completados",
+    },
+];
+
+
+
 export const dataSlider = [
     {
         id: 1,
@@ -73,50 +76,7 @@ export const dataSlider = [
     },
 ]
 
-export const dataPortfolio = [
-    {
-        id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 4,
-        title: "Navegando Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Sitios Web Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Proyectos Web Dinámicos",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-];
+
 
 
 export const dataExperience = [
@@ -127,22 +87,22 @@ export const dataExperience = [
             {
                 name: "HTML",
                 subtitle: "Experimentado",
-                value: 80,
+                value: 90,
             },
             {
                 name: "CSS",
-                subtitle: "Intermedio",
-                value: 75,
+                subtitle: "Experimentado",
+                value: 90,
             },
             {
                 name: "JavaScript",
                 subtitle: "Experimentado",
-                value: 60,
+                value: 70,
             },
             {
                 name: "Tailwind CSS",
                 subtitle: "Experimentado",
-                value: 30,
+                value: 60,
             },
             {
                 name: "React",
@@ -152,7 +112,7 @@ export const dataExperience = [
             {
                 name: "Bootstrap",
                 subtitle: "Basic",
-                value: 50,
+                value: 90,
             },
         ],
     },
@@ -163,12 +123,7 @@ export const dataExperience = [
             {
                 name: "Node JS",
                 subtitle: "Experimentado",
-                value: 80,
-            },
-            {
-                name: "Mongo DB",
-                subtitle: "Intermedio",
-                value: 75,
+                value: 60,
             },
             {
                 name: "Python",
@@ -178,17 +133,17 @@ export const dataExperience = [
             {
                 name: "MySQL",
                 subtitle: "Experimentado",
-                value: 60,
+                value: 80,
             },
             {
                 name: "PHP",
                 subtitle: "Experimentado",
-                value: 60,
+                value: 90,
             },
             {
-                name: "Django",
-                subtitle: "Basic",
-                value: 60,
+                name: "Drupal Twig",
+                subtitle: "Experimentado",
+                value: 70,
             },
         ],
     },
@@ -198,9 +153,12 @@ export const dataExperience = [
 export const dataServices = [
     {
         id: 1,
-        title: "Desarrollo Web",
+        title: "Soluciones Web personalizados",
         icon: <PanelsTopLeft />,
         features: [
+            {
+                name: "Diseño web personalizado",
+            },
             {
                 name: "Desarrollo de sitios web personalizados",
             },
@@ -217,7 +175,7 @@ export const dataServices = [
                 name: "Gestión de contenido",
             },
             {
-                name: "Comercio electrónico",
+                name: "Capacitación para gestión del contenido",
             },
             {
                 name: "Mantenimiento y soporte continuo",
@@ -226,78 +184,101 @@ export const dataServices = [
     },
     {
         id: 2,
-        title: "Creación de contenido",
+        title: "Implementación de CMS WoordPress / Drupal",
         icon: <BellPlus />,
         features: [
             {
-                name: "Redacción de contenido original y de calidad",
+                name: "Instalación y configuración del CMS",
             },
             {
-                name: "Creación de vídeos atractivos y dinámicos",
+                name: "Desarrollo y personalización de temas",
             },
             {
-                name: "Diseño gráfico para una imagen impactante",
+                name: "Optimización SEO para motores de búsqueda",
             },
             {
-                name: "Edición profesional de textos y materiales visuales",
+                name: "Migración de contenido desde otras plataformas",
             },
             {
-                name: "Estrategias de marketing de contenidos efectivas",
+                name: "Capacitación para gestión del contenido",
             },
             {
-                name: "Producción de podcasts informativos y entretenidos",
+                name: "Soporte técnico y mantenimiento continuo",
             }
         ],
     },
     {
         id: 3,
-        title: "UI/UX Design",
+        title: "Soluciones E-commerce",
         icon: <Brush />,
         features: [
             {
-                name: "Diseño intuitivo para una experiencia de usuario fluida",
+                name: "Desarrollo de tiendas online a medida",
             },
             {
-                name: "Prototipado interactivo para visualizar la interfaz",
+                name: "Diseño adaptable y optimizado para móviles",
             },
             {
-                name: "Investigación de usuarios para comprender necesidades y expectativas",
+                name: "Integración de pasarelas de pago seguras",
             },
             {
-                name: "Optimización de la usabilidad para mejorar la accesibilidad",
+                name: "Optimización SEO para e-commerce",
             },
             {
-                name: "Pruebas de usabilidad para evaluar la experiencia",
+                name: "Gestión eficiente de inventario y productos",
             },
             {
-                name: "Diseño responsive para adaptarse a diferentes dispositivos",
+                name: "Automatización de envíos y logística",
+            },
+            {
+                name: "Soporte y mantenimiento continuo",
             },
         ],
     },
 ];
 
-
-export const dataContact = [
+export const dataPortfolio = [
     {
         id: 1,
-        title: "Teléfono",
-        subtitle: "+57 3166293520",
-        link: "tel:+573166293520",
-        icon: <Phone />,
+        title: "Ecohotel Las Mercedes - Pereira, Risaralda",
+        image: "/img-ecohotel.png",
+        urlGithub: "#!",
+        urlDemo: "https://ecohotellasmercedes.com",
     },
     {
         id: 2,
-        title: "Github",
-        subtitle: "github.com/jhondao",
-        link: "github.com/jhondao",
-        icon: <Code2 />,
+        title: "TeamUp Integral Service - Miami, USA",
+        image: "/img-teamupintegral.png",
+        urlGithub: "#!",
+        urlDemo: "https://teamupintegral.com/",
     },
     {
         id: 3,
-        title: "Email",
-        subtitle: "jhondao.desarrollo@hotmail.com",
-        link: "mailto:jhondao.desarrollo@hotmail.com25",
-        icon: <Inbox />,
+        title: "Trascender Cooperativa - Cali, Valle del Cauca",
+        image: "/img-trascender.png",
+        urlGithub: "#!",
+        urlDemo: "https://trascendercooperativa.com/",
+    },
+    {
+        id: 4,
+        title: "Ecommerce Fisio Implements - Cali, Valle del Cauca",
+        image: "/img-fisioimplements.png",
+        urlGithub: "#!",
+        urlDemo: "https://fisioimplements.com/",
+    },
+    {
+        id: 5,
+        title: "Ecommerce Maximus Store - Cali, Valle del Cauca",
+        image: "/img-maximusstore.png",
+        urlGithub: "#!",
+        urlDemo: "https://maximustore.co/",
+    },
+    {
+        id: 6,
+        title: "Ecommerce Annemattress - Miami, Usa",
+        image: "/img-annematress.png",
+        urlGithub: "#!",
+        urlDemo: "https://annemattress.com/",
     },
 ];
 
@@ -345,3 +326,28 @@ export const dataTestimonials = [
         imageUrl: "/profile-3.jpeg",
     },
 ];
+
+export const dataContact = [
+    {
+        id: 1,
+        title: "Teléfono",
+        subtitle: "+57 3166293520",
+        link: "tel:+573166293520",
+        icon: <Phone />,
+    },
+    {
+        id: 2,
+        title: "Github",
+        subtitle: "github.com/jhondao",
+        link: "github.com/jhondao",
+        icon: <Code2 />,
+    },
+    {
+        id: 3,
+        title: "Email",
+        subtitle: "jhondao.desarrollo@hotmail.com",
+        link: "mailto:jhondao.desarrollo@hotmail.com25",
+        icon: <Inbox />,
+    },
+];
+
