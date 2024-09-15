@@ -6,6 +6,8 @@ import Experience from '../components/experience';
 import Services from '@/components/services';
 import Porfolio from '@/components/portfolio';
 import Testimonials from '@/components/testimonials';
+import Contact from '@/components/contact';
+
 
 export default function Maintenance() {
   return (
@@ -51,6 +53,7 @@ export default function Maintenance() {
     //   <Services />
     //   <Porfolio />
     //   <Testimonials />
+    //   <Contact />
     // </main>
   );
 }

@@ -6,8 +6,13 @@ import { ThemeProvider } from '../components/theme-provider';
 const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Jhon Orozco Site 💻",
+  title: {
+    absolute: "",
+    default: "Jhon Orozco Site 💻",
+    template:"",
+  },
   description: "Portaflio web",
+  icons: '',
 };
 
 export default function RootLayout({
