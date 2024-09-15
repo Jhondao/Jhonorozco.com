@@ -1,6 +1,6 @@
 # JhonOrozco.com - Portafolio Personal
 
-Este es el repositorio del sitio web de portafolio personal [JhonOrozco.com](https://JhonOrozco.com), desarrollado con **React**, **Next.js**, y **Tailwind CSS**. Este sitio está diseñado para mostrar mi experiencia y proyectos como desarrollador web, enfocándome en tecnologías frontend y en la creación de experiencias de usuario excepcionales.
+Este es el repositorio del sitio web de portafolio personal [JhonOrozco.com](https://JhonOrozco.com), desarrollado con **React**, **Next.js**, y **Tailwind CSS**. El sitio está diseñado para mostrar mi experiencia y proyectos como desarrollador web, con un enfoque en tecnologías frontend y creación de experiencias de usuario excepcionales.
 
 ## Tecnologías Utilizadas
 
@@ -10,10 +10,13 @@ Este es el repositorio del sitio web de portafolio personal [JhonOrozco.com](htt
 
 ## Funcionalidades
 
-- **Portafolio de Proyectos**: Muestra los proyectos más destacados, con detalles de la tecnología utilizada y enlaces a los repositorios.
-- **Sección "Sobre Mí"**: Información sobre mi experiencia, formación y habilidades.
-- **Contacto**: Formulario de contacto para conectar conmigo directamente.
-- **Blog**: Publicaciones sobre desarrollo web, e-commerce y ventas en línea.
+- **Introducción del Sitio**: Resumen de lo que ofrece el portafolio y una bienvenida a los visitantes.
+- **Sobre Mí**: Información detallada sobre mi trayectoria profesional, habilidades y formación.
+- **Experiencia**: Detalles sobre mi experiencia laboral y proyectos en los que he trabajado.
+- **Portafolio de Proyectos**: Muestra de los proyectos más destacados, con detalles sobre la tecnología utilizada y enlaces a los repositorios.
+- **Servicios**: Descripción de los servicios que ofrezco como desarrollador web.
+- **Testimonios**: Opiniones de clientes y colaboradores sobre el trabajo que he realizado.
+- **Y más**: Otras secciones que pueden incluir blog, contacto, y enlaces a redes sociales.
 
 ## Instalación y Uso
 
