@@ -5,7 +5,7 @@ import ContactForm from "./contact-form";
 
 const Contact = () => {
     return(
-        <div className="p-6 md:px-12 md:py-44 max-w-5xl mx-auto" id="contact">
+        <div className="p-6 md:px-12 md:py-4 max-w-5xl mx-auto" id="contact">
             <Title title="Conctata conmigo" subtitle="Ponte en contacto conmigo 👌" />
         
         <div className="grid grid-cols-1 md:grid-cols-3 md:gap-7 mt-8">

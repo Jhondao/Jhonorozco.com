@@ -55,8 +55,6 @@ export const dataAboutMe = [
     },
 ];
 
-
-
 export const dataSlider = [
     {
         id: 1,
@@ -75,8 +73,6 @@ export const dataSlider = [
         url: "/slider-4.jpg",
     },
 ]
-
-
 
 
 export const dataExperience = [
@@ -285,44 +281,44 @@ export const dataPortfolio = [
 export const dataTestimonials = [
     {
         id: 1,
-        name: "George Snow",
+        name: "Patricia Mejia - Trascender Cooperativa",
         description:
-            "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt leo, et eleifend augue. Curabitur a massa molestie, volutpat neque ac, faucibus ligula.",
         imageUrl: "/profile-1.jpeg",
     },
     {
         id: 2,
-        name: "Juan Pérez",
+        name: "Eybar - CEO Fisio Implements",
         description:
-            "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt leo, et eleifend augue. Curabitur a massa molestie, volutpat neque ac, faucibus ligula.",
         imageUrl: "/profile-2.jpeg",
     },
     {
         id: 3,
-        name: "María García",
+        name: "Diego Osorio - CEO Maximus Store",
         description:
-            "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt leo, et eleifend augue. Curabitur a massa molestie, volutpat neque ac, faucibus ligula.",
         imageUrl: "/profile-3.jpeg",
     },
     {
         id: 4,
-        name: "Laura Snow",
+        name: "Milton Alegría",
         description:
-            "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt leo, et eleifend augue. Curabitur a massa molestie, volutpat neque ac, faucibus ligula.",
         imageUrl: "/profile-3.jpeg",
     },
     {
         id: 5,
-        name: "Carlos Sánchez",
+        name: "Johana Orozco, CEO Team up Integral Services",
         description:
-            "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt leo, et eleifend augue. Curabitur a massa molestie, volutpat neque ac, faucibus ligula.",
         imageUrl: "/profile-2.jpeg",
     },
     {
         id: 6,
-        name: "Antonio Martínez",
+        name: "Axel Moncada",
         description:
-            "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt leo, et eleifend augue. Curabitur a massa molestie, volutpat neque ac, faucibus ligula.",
         imageUrl: "/profile-3.jpeg",
     },
 ];
