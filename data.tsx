@@ -141,6 +141,11 @@ export const dataExperience = [
                 subtitle: "Experimentado",
                 value: 70,
             },
+            {
+                name: "WoordPress",
+                subtitle: "Experimentado",
+                value: 90,
+            },
         ],
     },
 ];
