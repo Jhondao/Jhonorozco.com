@@ -142,7 +142,7 @@ export const dataExperience = [
                 value: 70,
             },
             {
-                name: "WoordPress",
+                name: "WordPress",
                 subtitle: "Experimentado",
                 value: 90,
             },
