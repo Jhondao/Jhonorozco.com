@@ -3,6 +3,7 @@ import Title from "./shared/title";
 import { dataAboutMe, dataSlider } from "@/data";
 import { Button } from "./ui/button";
 import { Phone } from "lucide-react";
+import Link  from 'next/link';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel";
 import Image from "next/image";
 
@@ -61,7 +62,7 @@ export default function AboutMe() {
             visibilidad en los motores de búsqueda.
           </p>
             <Button>
-              <Phone size={20} className="mr-2" /> Hablamos
+              <Phone size={20} className="mr-2"/> <Link href="mailto:jhondao.desarrollo@hotmail.com">Hablamos</Link>
             </Button>
         </div>
         </div>
