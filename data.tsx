@@ -286,46 +286,39 @@ export const dataPortfolio = [
 export const dataTestimonials = [
     {
         id: 1,
-        name: "Patricia Mejia - Trascender Cooperativa",
+        name: "Eybar - CEO Fisio Implements",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt leo, et eleifend augue. Curabitur a massa molestie, volutpat neque ac, faucibus ligula.",
-        imageUrl: "/profile-1.jpeg",
+            "Desde que lanzamos nuestro sitio web desarrollado por Jhon Orozco, hemos experimentado un crecimiento impresionante en nuestras ventas. La tienda virtual de Fisio Implements no solo es visualmente atractiva, sino que también ofrece una navegación fluida y una experiencia de compra sencilla para nuestros clientes. Sin duda, contar con un sitio web bien diseñado ha sido clave para nuestro éxito en el comercio digital.",
+        imageUrl: "/profile-2.jpeg",
     },
     {
         id: 2,
-        name: "Eybar - CEO Fisio Implements",
+        name: "Ecohotel Las Mercedes",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt leo, et eleifend augue. Curabitur a massa molestie, volutpat neque ac, faucibus ligula.",
-        imageUrl: "/profile-2.jpeg",
+            "El desarrollo de nuestra página web con Jhon Orozco ha sido un gran acierto para Eco Hotel Las Mercedes. Ahora nuestros clientes pueden explorar fácilmente nuestros servicios, conocer nuestras experiencias eco-turísticas y hacer reservas de manera rápida y eficiente. La web es intuitiva, visualmente atractiva y completamente optimizada, lo que ha aumentado nuestra visibilidad y la cantidad de reservas. Sin duda, ha sido una inversión que ha impulsado nuestro crecimiento y nos ha permitido conectar mejor con quienes buscan una experiencia única en la naturaleza.",
+        imageUrl: "/profile-3.jpeg",
     },
     {
         id: 3,
-        name: "Diego Osorio - CEO Maximus Store",
+        name: "Johana Orozco, CEO Team up Integral Services",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt leo, et eleifend augue. Curabitur a massa molestie, volutpat neque ac, faucibus ligula.",
-        imageUrl: "/profile-3.jpeg",
+            "Jhon Dayron realizó un muy buen trabajo al crear y lanzar la página web para nuestro proyecto www.teamupintegral.com en todo el proceso destacó su profesionalismo desde la presentación de la propuesta acorde a nuestras solicitudes hasta la retroalimentación y capacitación que nos brindó para entender el producto. Fue paciente con nuestros requerimientos y además nos proporcionó información y valiosas recomendaciones. Definitivamente buscaremos de su asistencia para proyectos futuros",
+        imageUrl: "/profile-1.jpeg",
     },
     {
         id: 4,
-        name: "Milton Alegría",
+        name: "Patricia Mejia - Trascender Cooperativa",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt leo, et eleifend augue. Curabitur a massa molestie, volutpat neque ac, faucibus ligula.",
-        imageUrl: "/profile-3.jpeg",
+            "La experiencia con el servicio brindado por Jhon fue excelente, destacamos la calidad, la agilidad y la puntualidad en la entrega del proyecto. La página web de Trascender cooperativa ahora es más llamativa y funcional. Definitivamente recomiendo su servicio",
+        imageUrl: "/profile-1.jpeg",
     },
     {
         id: 5,
-        name: "Johana Orozco, CEO Team up Integral Services",
+        name: "Diego Osorio - CEO Maximus Store",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt leo, et eleifend augue. Curabitur a massa molestie, volutpat neque ac, faucibus ligula.",
-        imageUrl: "/profile-2.jpeg",
-    },
-    {
-        id: 6,
-        name: "Axel Moncada",
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at tincidunt leo, et eleifend augue. Curabitur a massa molestie, volutpat neque ac, faucibus ligula.",
+            "Quiero darle mi agradecimiento y recomendación al Sr Jhon Dayron por su profesionalismos y dedicación para crear la página Web de mi negocio y mantener activa y en movimiento la publicidad en las redes sociales, mil gracias y muchos éxitos! ",
         imageUrl: "/profile-3.jpeg",
-    },
+    },
 ];
 
 export const dataContact = [
