@@ -185,7 +185,7 @@ export const dataServices = [
     },
     {
         id: 2,
-        title: "Implementación de CMS WoordPress / Drupal",
+        title: "Implementación de CMS WordPress / Drupal",
         icon: <BellPlus />,
         features: [
             {
