@@ -14,12 +14,9 @@ const Porfolio = () => {
                         <h3 className='text-xl mb-4'>{data.title}</h3>
                         <Image src={data.image} alt='Image' width={300} height={300} className='rounded-2xl w-full' />
 
-                        <div className='mt-5 flex gap-5'>
-                            <Link className={buttonVariants({ variant: "outline"})} target='_blank' href={data.urlGithub}>
-                            Github
-                            </Link>
+                        <div className='mt-5 flex gap-4 d-flex justify-center'>
                             <Link className={buttonVariants({})} target='_blank' href={data.urlDemo}>
-                            Live demo
+                            Enlace a sitio web
                             </Link>
                         </div> 
                     

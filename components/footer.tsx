@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
             </div>
             <Separator className="my-4" />
-            <div className="text-center">&copy; 2024 | Portafolio web by JhonOrozco</div>
+            <div className="text-center">&copy; 2025 | Portafolio web by JhonOrozco</div>
         </footer>
     );
 }

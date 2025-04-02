@@ -262,25 +262,28 @@ export const dataPortfolio = [
     },
     {
         id: 4,
-        title: "Ecommerce Fisio Implements - Cali, Valle del Cauca",
-        image: "/img-fisioimplements.png",
+        title: "La Selecta Drogueria y Minimarket - Cali, Valle del Cauca",
+        image: "/img-selecta.png",
         urlGithub: "#!",
-        urlDemo: "https://fisioimplements.com/",
+        urlDemo: "https://www.laselecta.com.co/",
     },
     {
         id: 5,
         title: "Ecommerce Maximus Store - Cali, Valle del Cauca",
         image: "/img-maximusstore.png",
         urlGithub: "#!",
-        urlDemo: "https://maximustore.co/",
+        urlDemo: "https://maximustore.com/",
     },
     {
         id: 6,
-        title: "Ecommerce Annemattress - Miami, Usa",
-        image: "/img-annematress.png",
+        title: "Ecommerce Fisio Implements - Cali, Valle del Cauca",
+        image: "/img-fisioimplements.png",
         urlGithub: "#!",
-        urlDemo: "https://annemattress.com/",
+        urlDemo: "https://fisioimplements.com/",
     },
+    
+    
+    
 ];
 
 export const dataTestimonials = [
