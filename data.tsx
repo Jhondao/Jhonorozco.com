@@ -241,38 +241,38 @@ export const dataServices = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Ecohotel Las Mercedes - Pereira, Risaralda",
-        image: "/img-ecohotel.png",
+        title: "Principe Verdiazul - Malta, Europa",
+        image: "/img-principe.png",
         urlGithub: "#!",
-        urlDemo: "https://ecohotellasmercedes.com",
+        urlDemo: "https://principeverdiazul.com/",
+    },
+      {
+        id: 2,
+        title: "Keelcur - Candelaria, Valle del Cauca",
+        image: "/img-keelcur.png",
+        urlGithub: "#!",
+        urlDemo: "https://keelcur.com/",
     },
     {
-        id: 2,
+        id: 3,
         title: "TeamUp Integral Service - Miami, USA",
         image: "/img-teamupintegral.png",
         urlGithub: "#!",
         urlDemo: "https://teamupintegral.com/",
     },
     {
-        id: 3,
+        id: 4,
         title: "Trascender Cooperativa - Cali, Valle del Cauca",
         image: "/img-trascender.png",
         urlGithub: "#!",
         urlDemo: "https://trascendercooperativa.com/",
     },
     {
-        id: 4,
+        id: 5,
         title: "La Selecta Drogueria y Minimarket - Cali, Valle del Cauca",
         image: "/img-selecta.png",
         urlGithub: "#!",
         urlDemo: "https://www.laselecta.com.co/",
-    },
-    {
-        id: 5,
-        title: "Ecommerce Maximus Store - Cali, Valle del Cauca",
-        image: "/img-maximusstore.png",
-        urlGithub: "#!",
-        urlDemo: "https://maximustore.com/",
     },
     {
         id: 6,
@@ -280,8 +280,14 @@ export const dataPortfolio = [
         image: "/img-fisioimplements.png",
         urlGithub: "#!",
         urlDemo: "https://fisioimplements.com/",
+    },   
+    {
+        id: 7,
+        title: "Ecommerce Maximus Store - Cali, Valle del Cauca",
+        image: "/img-maximusstore.png",
+        urlGithub: "#!",
+        urlDemo: "https://maximustore.com/",
     },
-    
     
     
 ];
