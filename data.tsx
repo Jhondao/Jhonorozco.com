@@ -288,6 +288,20 @@ export const dataPortfolio = [
         urlGithub: "#!",
         urlDemo: "https://maximustore.com/",
     },
+    {
+        id: 8,
+        title: "Ecommerce Annematress - Miami, USA",
+        image: "/img-annematress.png",
+        urlGithub: "#!",
+        urlDemo: "https://annemattress.com/",
+    },
+    {
+        id: 9,
+        title: "Ecohotel Las Mercedes - Pereira, Risaralda",
+        image: "/img-ecohotel.png",
+        urlGithub: "#!",
+        urlDemo: "https://ecohotellasmercedes.com/",
+    },
     
     
 ];
