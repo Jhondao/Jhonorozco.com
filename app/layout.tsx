@@ -7,12 +7,13 @@ const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    absolute: "",
     default: "Jhon Orozco Site 💻",
-    template: "",
+    template: "%s | Jhon Orozco",
   },
-  description: "Portaflio web",
-  icons: '',
+  description: "Portafolio web",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
