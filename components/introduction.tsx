@@ -20,8 +20,8 @@ export default function Introduction() {
                     <Link className={buttonVariants()} href="#contact">
                         <Mail className='mr-2' /> Contacta conmigo
                     </Link>
-                    <Link className={buttonVariants({variant: 'secondary'})} href="./CV-JhonDayronOrozcoM.pdf" target='_blank'>
-                        <Paperclip className='mr-2' /> Descargar CV
+                    <Link className={buttonVariants({variant: 'secondary'})} href="https://www.linkedin.com/in/jhondao-orozco/" target='_blank'>
+                        <Paperclip className='mr-2' /> LinkedIn
                     </Link>
                 </div>
             </div>
