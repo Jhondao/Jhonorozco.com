@@ -39,19 +39,19 @@ export const dataAboutMe = [
         id: 1,
         name: "Experiencia",
         icon: <Briefcase />,
-        description: "+5 años de experiencia",
+        description: "+7 años de experiencia",
     },
     {
         id: 2,
         name: "Clientes",
         icon: <UsersRound />,
-        description: "+25 clientes satisfechos",
+        description: "+30 clientes satisfechos",
     },
     {
         id: 3,
         name: "Proyectos",
         icon: <Wrench />,
-        description: "+25 completados",
+        description: "+30 completados",
     },
 ];
 
@@ -81,33 +81,33 @@ export const dataExperience = [
         title: "Frontend Development  💄",
         experience: [
             {
-                name: "HTML",
+                name: "HTML, CSS, JavaScript",
                 subtitle: "Experimentado",
                 value: 90,
-            },
-            {
-                name: "CSS",
-                subtitle: "Experimentado",
-                value: 90,
-            },
-            {
-                name: "JavaScript",
-                subtitle: "Experimentado",
-                value: 70,
-            },
-            {
-                name: "Tailwind CSS",
-                subtitle: "Experimentado",
-                value: 60,
             },
             {
                 name: "React",
                 subtitle: "Experimentado",
+                value: 90,
+            },
+            {
+                name: "Next.js",
+                subtitle: "Experimentado",
+                value: 70,
+            },
+            {
+                name: "Tailwind CSS - Bootstrap",
+                subtitle: "Experimentado",
                 value: 60,
             },
             {
-                name: "Bootstrap",
-                subtitle: "Basic",
+                name: "WordPress - Drupal - Shopify",
+                subtitle: "Experimentado",
+                value: 60,
+            },
+            {
+                name: "Diseño UI/UX",
+                subtitle: "Experimentado",
                 value: 90,
             },
         ],
@@ -137,14 +137,9 @@ export const dataExperience = [
                 value: 90,
             },
             {
-                name: "Drupal Twig",
+                name: "Firebase",
                 subtitle: "Experimentado",
                 value: 70,
-            },
-            {
-                name: "WordPress",
-                subtitle: "Experimentado",
-                value: 90,
             },
         ],
     },
