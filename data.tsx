@@ -234,13 +234,7 @@ export const dataServices = [
 ];
 
 export const dataPortfolio = [
-     {
-        id: 1,
-        title: "Gocleaning - USA",
-        image: "/img-gohcleaning.png",
-        urlGithub: "#!",
-        urlDemo: "https://gohcleaning.com/",
-    },
+     
     {
         id: 2,
         title: "Principe Verdiazul - Malta, Europa",
@@ -248,7 +242,14 @@ export const dataPortfolio = [
         urlGithub: "#!",
         urlDemo: "https://principeverdiazul.com/",
     },
-      {
+    {
+        id: 1,
+        title: "Gocleaning - USA",
+        image: "/img-gohcleaning.png",
+        urlGithub: "#!",
+        urlDemo: "https://gohcleaning.com/",
+    },
+    {
         id: 3,
         title: "Keelcur - Candelaria, Valle del Cauca",
         image: "/img-keelcur.png",
