@@ -78,7 +78,7 @@ export const dataSlider = [
 export const dataExperience = [
     {
         id: 1,
-        title: "Frontend Development  💄",
+        title: "Frontend Development 💻",
         experience: [
             {
                 name: "HTML, CSS, JavaScript",
@@ -234,69 +234,70 @@ export const dataServices = [
 ];
 
 export const dataPortfolio = [
-    {
+     {
         id: 1,
+        title: "Gocleaning - USA",
+        image: "/img-gohcleaning.png",
+        urlGithub: "#!",
+        urlDemo: "https://gohcleaning.com/",
+    },
+    {
+        id: 2,
         title: "Principe Verdiazul - Malta, Europa",
         image: "/img-principe.png",
         urlGithub: "#!",
         urlDemo: "https://principeverdiazul.com/",
     },
       {
-        id: 2,
+        id: 3,
         title: "Keelcur - Candelaria, Valle del Cauca",
         image: "/img-keelcur.png",
         urlGithub: "#!",
         urlDemo: "https://keelcur.com/",
     },
     {
-        id: 3,
+        id: 4,
         title: "TeamUp Integral Service - Miami, USA",
         image: "/img-teamupintegral.png",
         urlGithub: "#!",
         urlDemo: "https://teamupintegral.com/",
     },
     {
-        id: 4,
+        id: 5,
         title: "Trascender Cooperativa - Cali, Valle del Cauca",
         image: "/img-trascender.png",
         urlGithub: "#!",
         urlDemo: "https://trascendercooperativa.com/",
     },
     {
-        id: 5,
+        id: 6,
         title: "La Selecta Drogueria y Minimarket - Cali, Valle del Cauca",
         image: "/img-selecta.png",
         urlGithub: "#!",
         urlDemo: "https://www.laselecta.com.co/",
     },
     {
-        id: 6,
+        id: 7,
         title: "Ecommerce Fisio Implements - Cali, Valle del Cauca",
         image: "/img-fisioimplements.png",
         urlGithub: "#!",
         urlDemo: "https://fisioimplements.com/",
     },   
     {
-        id: 7,
+        id: 8,
         title: "Ecommerce Maximus Store - Cali, Valle del Cauca",
         image: "/img-maximusstore.png",
         urlGithub: "#!",
         urlDemo: "https://maximustore.com/",
     },
     {
-        id: 8,
+        id: 9,
         title: "Ecommerce Annematress - Miami, USA",
         image: "/img-annematress.png",
         urlGithub: "#!",
         urlDemo: "https://annemattress.com/",
     },
-    {
-        id: 9,
-        title: "Ecohotel Las Mercedes - Pereira, Risaralda",
-        image: "/img-ecohotel.png",
-        urlGithub: "#!",
-        urlDemo: "https://ecohotellasmercedes.com/",
-    },
+   
     
     
 ];
