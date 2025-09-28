@@ -237,10 +237,10 @@ export const dataPortfolio = [
      
     {
         id: 2,
-        title: "Principe Verdiazul - Malta, Europa",
+        title: "The Emotions Lab - Malta, Europa",
         image: "/img-principe.png",
         urlGithub: "#!",
-        urlDemo: "https://principeverdiazul.com/",
+        urlDemo: "https://theemotionslabmalta.com/",
     },
     {
         id: 1,
@@ -272,17 +272,17 @@ export const dataPortfolio = [
     },
     {
         id: 6,
-        title: "La Selecta Drogueria y Minimarket - Cali, Valle del Cauca",
-        image: "/img-selecta.png",
-        urlGithub: "#!",
-        urlDemo: "https://www.laselecta.com.co/",
-    },
-    {
-        id: 7,
         title: "Ecommerce Fisio Implements - Cali, Valle del Cauca",
         image: "/img-fisioimplements.png",
         urlGithub: "#!",
         urlDemo: "https://fisioimplements.com/",
+    },
+    {
+        id: 7,
+        title: "La Selecta Drogueria y Minimarket - Cali, Valle del Cauca",
+        image: "/img-selecta.png",
+        urlGithub: "#!",
+        urlDemo: "https://www.laselecta.com.co/",
     },   
     {
         id: 8,
