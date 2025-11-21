@@ -233,6 +233,18 @@ export const dataServices = [
     },
 ];
 
+export const dataProyects  = [ 
+    {
+        id: 1,
+        title: "EnRuta",
+        description:
+            "Aplicación móvil diseñada para ayudar a los transportadores de carga a gestionar sus gastos de manera eficiente. Permite registrar y categorizar gastos, generar informes financieros y optimizar la administración del negocio de transporte.",
+        image: "/img-proyecto-enruta.png",
+        tecnologies: ["NextJs", "Supabase", "Tailwind CSS", "Typescript", "Vercel", "Figma", "Shadcn UI"],
+        url: "https://en-ruta-app-gamma.vercel.app/"
+    },
+];
+
 export const dataPortfolio = [
     {
         id: 1,

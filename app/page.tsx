@@ -2,6 +2,7 @@ import Navbar from '@/components/navbar';
 import React from 'react';
 import Introduction from '../components/introduction';
 import AboutMe from '@/components/about-me';
+import Proyectos from '@/components/proyectos';
 import Experience from '../components/experience';
 import Services from '@/components/services';
 import Porfolio from '@/components/portfolio';
@@ -18,6 +19,7 @@ export default function Maintenance() {
       <AboutMe />
       <Experience />
       <Services />
+      <Proyectos />
       <Porfolio />
       <Testimonials />
       <Contact />
