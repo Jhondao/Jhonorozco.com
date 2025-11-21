@@ -81,14 +81,19 @@ export const dataExperience = [
         title: "Frontend Development 💻",
         experience: [
             {
-                name: "HTML, CSS, JavaScript",
+                name: "HTML, CSS",
+                subtitle: "Experimentado",
+                value: 90,
+            },
+            {
+                name: "JavaScript",
                 subtitle: "Experimentado",
                 value: 90,
             },
             {
                 name: "React",
                 subtitle: "Experimentado",
-                value: 90,
+                value: 80,
             },
             {
                 name: "Next.js",
@@ -113,7 +118,12 @@ export const dataExperience = [
         title: "Backend Development  🥷",
         experience: [
             {
-                name: "Node JS",
+                name: "PHP",
+                subtitle: "Experimentado",
+                value: 80,
+            },
+            {
+                name: "Laravel",
                 subtitle: "Experimentado",
                 value: 60,
             },
@@ -128,19 +138,14 @@ export const dataExperience = [
                 value: 80,
             },
             {
-                name: "PHP",
-                subtitle: "Experimentado",
-                value: 90,
-            },
-            {
-                name: "Firebase",
+                name: "Supabase",
                 subtitle: "Experimentado",
                 value: 70,
             },
             {
                 name: "WordPress - Drupal - Shopify",
                 subtitle: "Experimentado",
-                value: 60,
+                value: 90,
             },
         ],
     },
