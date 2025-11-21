@@ -100,11 +100,7 @@ export const dataExperience = [
                 subtitle: "Experimentado",
                 value: 60,
             },
-            {
-                name: "WordPress - Drupal - Shopify",
-                subtitle: "Experimentado",
-                value: 60,
-            },
+            
             {
                 name: "Diseño UI/UX",
                 subtitle: "Experimentado",
@@ -140,6 +136,11 @@ export const dataExperience = [
                 name: "Firebase",
                 subtitle: "Experimentado",
                 value: 70,
+            },
+            {
+                name: "WordPress - Drupal - Shopify",
+                subtitle: "Experimentado",
+                value: 60,
             },
         ],
     },
