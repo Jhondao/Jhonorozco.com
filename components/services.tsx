@@ -6,7 +6,7 @@ import { Check } from 'lucide-react'
 export default function Services() {
   return (
     <div className='p-6 md:px-12 md:py-25 max-w-5xl mx-auto' id="services">
-        <Title title='Servicios' subtitle='En qué te puedo apoyar?' />
+        <Title title='Servicios' subtitle='Impulso tu presencia online con estas soluciones' />
 
         <div className='grid md:grid-cols-3 gap-5 mt-7'>
             {dataServices.map((service) => (
