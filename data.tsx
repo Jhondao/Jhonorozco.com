@@ -128,9 +128,9 @@ export const dataExperience = [
                 value: 60,
             },
             {
-                name: "Python",
-                subtitle: "Basic",
-                value: 60,
+                name: "Docker",
+                subtitle: "Experimentado",
+                value: 80,
             },
             {
                 name: "MySQL",
@@ -253,13 +253,13 @@ export const dataProyects  = [
 
 export const dataPortfolio = [
      
-    {
-        id: 2,
-        title: "The Emotions Lab - Malta, Europa",
-        image: "/img-principe.png",
-        urlGithub: "#!",
-        urlDemo: "https://theemotionslabmalta.com/",
-    },
+    // {
+    //     id: 2,
+    //     title: "The Emotions Lab - Malta, Europa",
+    //     image: "/img-principe.png",
+    //     urlGithub: "#!",
+    //     urlDemo: "https://theemotionslabmalta.com/",
+    // },
     {
         id: 1,
         title: "Gocleaning - USA",
@@ -295,13 +295,13 @@ export const dataPortfolio = [
         urlGithub: "#!",
         urlDemo: "https://fisioimplements.com/",
     },
-    {
-        id: 7,
-        title: "La Selecta Drogueria y Minimarket - Cali, Valle del Cauca",
-        image: "/img-selecta.png",
-        urlGithub: "#!",
-        urlDemo: "https://www.laselecta.com.co/",
-    },   
+    // {
+    //     id: 7,
+    //     title: "La Selecta Drogueria y Minimarket - Cali, Valle del Cauca",
+    //     image: "/img-selecta.png",
+    //     urlGithub: "#!",
+    //     urlDemo: "https://www.laselecta.com.co/",
+    // },   
     {
         id: 8,
         title: "Ecommerce Maximus Store - Cali, Valle del Cauca",
@@ -309,15 +309,13 @@ export const dataPortfolio = [
         urlGithub: "#!",
         urlDemo: "https://maximustore.com/",
     },
-    {
-        id: 9,
-        title: "Ecommerce Annematress - Miami, USA",
-        image: "/img-annematress.png",
-        urlGithub: "#!",
-        urlDemo: "https://annemattress.com/",
-    },
-   
-    
+    // {
+    //     id: 9,
+    //     title: "Ecommerce Annematress - Miami, USA",
+    //     image: "/img-annematress.png",
+    //     urlGithub: "#!",
+    //     urlDemo: "https://annemattress.com/",
+    // }, 
     
 ];
 

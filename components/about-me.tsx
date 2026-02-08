@@ -13,7 +13,7 @@ export default function AboutMe() {
       <Title title="Sobre mí" subtitle="Conóceme" />
 
       <div className="grid md:grid-cols-2">
-        <div className="py-12 md_py-9 flex items-center justify-center">
+        {/* <div className="py-12 md:py-9 flex items-center justify-center">
           <Carousel  opts={{
               align: "start"
             }}
@@ -32,9 +32,8 @@ export default function AboutMe() {
            <CarouselPrevious/>
            <CarouselNext />
           </Carousel>
-        </div>
-        <div>
-        <div className="grid md:grid-cols-3 mt-7 gap-4">
+        </div> */}
+        <div className="grid md:grid-cols-1 mt-7 gap-4 ">
           {dataAboutMe.map((data) => (
             <div
               key={data.id}
@@ -47,24 +46,25 @@ export default function AboutMe() {
           ))}
         </div>
         <div>
-          <p className="my-8">
-            Como desarrollador web me apasiona el diseño y la usabilidad, por lo
-            que siempre busco crear experiencias de usuario intuitivas y
-            atractivas. Además, me mantengo actualizado en las últimas
-            tendencias y tecnologías en el mundo del desarrollo web para poder
-            ofrecer soluciones innovadoras y eficientes a mis clientes.
-            <br /><br />
-            He trabajado en proyectos de diversa complejidad y tamaño, desde
-            sitios web corporativos hasta aplicaciones web escalables y
-            complejas. También tengo experiencia en la optimización de sitios
-            web para mejorar su rendimiento y velocidad de carga, lo que
-            contribuye a una mejor experiencia de usuario y una mayor
-            visibilidad en los motores de búsqueda.
-          </p>
-            <Button>
-              <Phone size={20} className="mr-2"/> <Link href="mailto:jhondao.desarrollo@hotmail.com">Hablamos</Link>
-            </Button>
-        </div>
+          <div className="m-8 flex flex-col items-start justify-center">
+            <p className="my-8">
+              Como desarrollador web me apasiona el diseño y la usabilidad, por lo
+              que siempre busco crear experiencias de usuario intuitivas y
+              atractivas. Además, me mantengo actualizado en las últimas
+              tendencias y tecnologías en el mundo del desarrollo web para poder
+              ofrecer soluciones innovadoras y eficientes a mis clientes.
+              <br /><br />
+              He trabajado en proyectos de diversa complejidad y tamaño, desde
+              sitios web corporativos hasta aplicaciones web escalables y
+              complejas. También tengo experiencia en la optimización de sitios
+              web para mejorar su rendimiento y velocidad de carga, lo que
+              contribuye a una mejor experiencia de usuario y una mayor
+              visibilidad en los motores de búsqueda.
+            </p>
+              <Button>
+                <Phone size={20} className="mr-2"/> <Link href="mailto:jhondao.desarrollo@hotmail.com">Hablamos</Link>
+              </Button>
+          </div>
         </div>
       </div>
     </div>

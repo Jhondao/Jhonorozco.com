@@ -25,7 +25,7 @@ export default function Introduction() {
                     </Link>
                 </div>
             </div>
-            <Image src="/img-profile.png" className='mt-10' alt="Profile pic" width={500} height={500} />
+            <Image src="/imagen-portafolio-jhonorozco.png" className='mt-10 rounded-3xl flex justify-center mx-auto' alt="Profile pic" width={450} height={450} />
         </div>
     </Container>
   )
