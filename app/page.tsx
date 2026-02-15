@@ -9,15 +9,13 @@ import Porfolio from '@/components/portfolio';
 import Testimonials from '@/components/testimonials';
 import Contact from '@/components/contact';
 import Footer from '@/components/footer';
-
+import Hero from '@/components/sobre-mi/hero';
 
 export default function Maintenance() {
   return (
     <main className='pb-40'>
       <Navbar />
-      <Introduction />
-      <AboutMe />
-      <Experience />
+      <Hero />
       <Services />
       <Proyectos />
       <Porfolio />

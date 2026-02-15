@@ -9,6 +9,39 @@ export const itemsNavbar = [
     },
     {
         id: 2,
+        title: "Book",
+        icon: <BookText size={20} />,
+        link: "#services",
+    },
+    {
+        id: 3,
+        title: "Target",
+        icon: <CodeSquare size={20} />,
+        link: "#portfolio",
+    },
+    {
+        id: 4,
+        title: "Home",
+        icon: <Mail size={20} />,
+        link: "#contact",
+    },
+    {
+        id: 5,
+        title: "Sobre mi",
+        icon: <UserRound size={20} />,
+        link: "/sobre-mi",
+    },
+];
+
+export const itemsNavbarAboutMe = [
+    {
+        id: 1,
+        title: "Home",
+        icon: <Home size={20} />,
+        link: "/",
+    },
+    {
+        id: 2,
         title: "User",
         icon: <UserRound size={20} />,
         link: "#about-me",
@@ -105,7 +138,7 @@ export const dataExperience = [
                 subtitle: "Experimentado",
                 value: 60,
             },
-            
+
             {
                 name: "Diseño UI/UX",
                 subtitle: "Experimentado",
@@ -239,7 +272,7 @@ export const dataServices = [
     },
 ];
 
-export const dataProyects  = [ 
+export const dataProyects = [
     {
         id: 1,
         title: "EnRuta",
@@ -252,7 +285,7 @@ export const dataProyects  = [
 ];
 
 export const dataPortfolio = [
-     
+
     // {
     //     id: 2,
     //     title: "The Emotions Lab - Malta, Europa",
@@ -316,7 +349,7 @@ export const dataPortfolio = [
     //     urlGithub: "#!",
     //     urlDemo: "https://annemattress.com/",
     // }, 
-    
+
 ];
 
 export const dataTestimonials = [
@@ -354,7 +387,7 @@ export const dataTestimonials = [
         description:
             "Quiero darle mi agradecimiento y recomendación al Sr Jhon Dayron por su profesionalismos y dedicación para crear la página Web de mi negocio y mantener activa y en movimiento la publicidad en las redes sociales, mil gracias y muchos éxitos! ",
         imageUrl: "/profile-3.jpeg",
-    },
+    },
 ];
 
 export const dataContact = [
