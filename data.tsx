@@ -1,4 +1,6 @@
 import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench } from "lucide-react";
+import { Lightbulb, Users, Target, MessageSquare, Clock, Zap } from 'lucide-react';
+
 
 export const itemsNavbar = [
     {
@@ -33,61 +35,6 @@ export const itemsNavbar = [
     },
 ];
 
-export const itemsNavbarAboutMe = [
-    {
-        id: 1,
-        title: "Home",
-        icon: <Home size={20} />,
-        link: "/",
-    },
-    {
-        id: 2,
-        title: "User",
-        icon: <UserRound size={20} />,
-        link: "#about-me",
-    },
-    {
-        id: 3,
-        title: "Book",
-        icon: <BookText size={20} />,
-        link: "#services",
-    },
-    {
-        id: 4,
-        title: "Target",
-        icon: <CodeSquare size={20} />,
-        link: "#portfolio",
-    },
-    {
-        id: 5,
-        title: "Home",
-        icon: <Mail size={20} />,
-        link: "#contact",
-    },
-];
-
-
-export const dataAboutMe = [
-    {
-        id: 1,
-        name: "Experiencia",
-        icon: <Briefcase />,
-        description: "+7 años de experiencia",
-    },
-    {
-        id: 2,
-        name: "Clientes",
-        icon: <UsersRound />,
-        description: "+30 clientes satisfechos",
-    },
-    {
-        id: 3,
-        name: "Proyectos",
-        icon: <Wrench />,
-        description: "+30 completados",
-    },
-];
-
 export const dataSlider = [
     {
         id: 1,
@@ -106,7 +53,6 @@ export const dataSlider = [
         url: "/slider-4.jpg",
     },
 ]
-
 
 export const dataExperience = [
     {
@@ -183,7 +129,6 @@ export const dataExperience = [
         ],
     },
 ];
-
 
 export const dataServices = [
     {
@@ -272,17 +217,6 @@ export const dataServices = [
     },
 ];
 
-export const dataProyects = [
-    {
-        id: 1,
-        title: "EnRuta",
-        description:
-            "Aplicación móvil diseñada para ayudar a los transportadores de carga a gestionar sus gastos de manera eficiente. Permite registrar y categorizar gastos, generar informes financieros y optimizar la administración del negocio de transporte.",
-        image: "/img-proyecto-enruta.png",
-        tecnologies: ["NextJs", "Supabase", "Tailwind CSS", "Typescript", "Vercel", "Figma", "Shadcn UI"],
-        url: "https://en-ruta-app-gamma.vercel.app/"
-    },
-];
 
 export const dataPortfolio = [
 
@@ -411,6 +345,144 @@ export const dataContact = [
         subtitle: "jhondao.desarrollo@hotmail.com",
         link: "mailto:jhondao.desarrollo@hotmail.com25",
         icon: <Inbox />,
+    },
+];
+
+
+// Informacion para la pagina sobre-mi
+
+export const dataAboutMe = [
+    {
+        id: 1,
+        name: "Experiencia",
+        icon: <Briefcase />,
+        description: "+7 años de experiencia",
+    },
+    {
+        id: 2,
+        name: "Clientes",
+        icon: <UsersRound />,
+        description: "+30 clientes satisfechos",
+    },
+    {
+        id: 3,
+        name: "Proyectos",
+        icon: <Wrench />,
+        description: "+30 completados",
+    },
+];
+
+export const itemsNavbarAboutMe = [
+    {
+        id: 1,
+        title: "Home",
+        icon: <Home size={20} />,
+        link: "/",
+    },
+    {
+        id: 2,
+        title: "User",
+        icon: <UserRound size={20} />,
+        link: "#about-me",
+    },
+    {
+        id: 3,
+        title: "Book",
+        icon: <BookText size={20} />,
+        link: "#services",
+    },
+    {
+        id: 4,
+        title: "Target",
+        icon: <CodeSquare size={20} />,
+        link: "#portfolio",
+    },
+    {
+        id: 5,
+        title: "Home",
+        icon: <Mail size={20} />,
+        link: "#contact",
+    },
+];
+
+export const dataEducacion = [
+    {
+        id: 1,
+        title: "Ingeniería de Sistemas",
+        institution: "UNAD",
+        period: "2023 - 2026",
+        description: "Formación integral en desarrollo de software, bases de datos, arquitectura de sistemas y gestión de proyectos tecnológicos."
+    },
+    {
+        id: 2,
+        title: "Tecnologo ADSI",
+        institution: "SENA",
+        period: "2016 - 2018",
+        description: "Formación integral en desarrollo de software, bases de datos, arquitectura de sistemas y gestión de proyectos tecnológicos."
+    },
+    {
+        id: 3,
+        title: "Diseño UI/UX",
+        institution: "Udemy",
+        period: "2025 - 2026",
+        description: "Certificación en diseño de interfaces de usuario y experiencia de usuario, prototipado y testing de usabilidad."
+    }
+];
+
+export const dataSoftSkills = [
+    {
+        id: 1,
+        title: "Resolución de Problemas",
+        description: "Capacidad para analizar situaciones complejas y encontrar soluciones efectivas y creativas.",
+        icon: Lightbulb,
+        color: "from-yellow-500 to-orange-600"
+    },
+    {
+        id: 2,
+        title: "Trabajo en Equipo",
+        description: "Colaboración efectiva con equipos multidisciplinarios para alcanzar objetivos comunes.",
+        icon: Users,
+        color: "from-blue-500 to-cyan-600"
+    },
+    {
+        id: 3,
+        title: "Orientación a Resultados",
+        description: "Enfoque en la entrega de proyectos de calidad cumpliendo plazos y expectativas.",
+        icon: Target,
+        color: "from-green-500 to-emerald-600"
+    },
+    {
+        id: 4,
+        title: "Comunicación Efectiva",
+        description: "Habilidad para transmitir ideas técnicas de forma clara tanto a equipos técnicos como no técnicos.",
+        icon: MessageSquare,
+        color: "from-purple-500 to-violet-600"
+    },
+    {
+        id: 5,
+        title: "Gestión del Tiempo",
+        description: "Organización y priorización eficiente de tareas para maximizar la productividad.",
+        icon: Clock,
+        color: "from-pink-500 to-rose-600"
+    },
+    {
+        id: 6,
+        title: "Adaptabilidad",
+        description: "Flexibilidad para aprender nuevas tecnologías y adaptarse a cambios en proyectos.",
+        icon: Zap,
+        color: "from-indigo-500 to-blue-600"
+    }
+];
+
+export const dataProyects = [
+    {
+        id: 1,
+        title: "EnRuta",
+        description:
+            "Aplicación móvil diseñada para ayudar a los transportadores de carga a gestionar sus gastos de manera eficiente. Permite registrar y categorizar gastos, generar informes financieros y optimizar la administración del negocio de transporte.",
+        image: "/img-proyecto-enruta.png",
+        tecnologies: ["NextJs", "Supabase", "Tailwind CSS", "Typescript", "Vercel", "Figma", "Shadcn UI"],
+        url: "https://en-ruta-app-gamma.vercel.app/"
     },
 ];
 

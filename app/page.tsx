@@ -4,7 +4,7 @@ import Services from '@/components/services';
 import Porfolio from '@/components/portfolio';
 import Contact from '@/components/contact';
 import Footer from '@/components/footer';
-import Hero from '@/components/sobre-mi/hero';
+import Hero from '@/components/hero';
 import Beneficios from '@/components/sobre-mi/beneficios';
 import Testimonials from '@/components/testimonials';
 
