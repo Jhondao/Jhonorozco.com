@@ -5,7 +5,7 @@ import Porfolio from '@/components/portfolio';
 import Contact from '@/components/contact';
 import Footer from '@/components/footer';
 import Hero from '@/components/hero';
-import Beneficios from '@/components/sobre-mi/beneficios';
+import Beneficios from '@/components/beneficios';
 import Testimonials from '@/components/testimonials';
 
 export default function Maintenance() {

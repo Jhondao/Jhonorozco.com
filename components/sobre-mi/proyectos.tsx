@@ -38,15 +38,15 @@ const Proyectos = () => {
                             {/* Gradient overlay on hover */}
                             <div className='absolute inset-0 bg-gradient-to-br from-emerald-500/5 to-teal-500/5 dark:from-emerald-500/10 dark:to-teal-500/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
 
-                            <div className='relative z-10 grid md:grid-cols-2 gap-8 p-8'>
+                            <div className='relative z-10 grid md:grid-cols-1 gap-8 p-8'>
                                 {/* Image */}
                                 <div className='relative overflow-hidden rounded-xl'>
                                     <a href={project.url} target="_blank" rel="noopener noreferrer">
                                         <Image
                                             src={project.image}
                                             alt={project.title}
-                                            width={500}
-                                            height={300}
+                                            width={250}
+                                            height={250}
                                             className='w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110 rounded-xl'
                                         />
                                         {/* Overlay on hover */}
@@ -61,10 +61,6 @@ const Proyectos = () => {
 
                                 {/* Content */}
                                 <div className='flex flex-col justify-center space-y-4'>
-                                    {/* Icon */}
-                                    <div className='inline-flex w-fit p-3 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600 mb-2'>
-                                        <Code2 className='w-6 h-6 text-white' />
-                                    </div>
 
                                     {/* Title */}
                                     <h3 className='text-2xl font-bold text-slate-800 dark:text-white group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors'>
