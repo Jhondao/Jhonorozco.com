@@ -7,7 +7,7 @@ import { dataEducacion } from '@/data';
 
 export default function Educacion() {
     return (
-        <section className="py-20 px-6 bg-gradient-to-b from-transparent via-violet-50/30 to-transparent dark:via-violet-950/10">
+        <section id="educacion" className="py-20 px-6 bg-gradient-to-b from-transparent via-violet-50/30 to-transparent dark:via-violet-950/10">
             <div className='max-w-6xl mx-auto'>
                 {/* Header */}
                 <div className='text-center mb-16'>

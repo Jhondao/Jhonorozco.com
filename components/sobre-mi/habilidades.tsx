@@ -6,7 +6,7 @@ import { dataSoftSkills } from '@/data';
 
 export default function Habilidades() {
     return (
-        <section className="py-20 px-6 bg-gradient-to-b from-transparent via-slate-50/30 to-transparent dark:via-slate-900/10">
+        <section id="soft-skills" className="py-20 px-6 bg-gradient-to-b from-transparent via-slate-50/30 to-transparent dark:via-slate-900/10">
             <div className='max-w-6xl mx-auto'>
                 {/* Header */}
                 <div className='text-center mb-16'>

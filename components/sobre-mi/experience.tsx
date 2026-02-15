@@ -7,7 +7,7 @@ import { Progress } from '../ui/progress'
 
 export default function Experience() {
   return (
-    <section className='py-20 px-6 bg-gradient-to-b from-transparent via-rose-50/30 to-transparent dark:via-rose-950/10'>
+    <section id="experience" className='py-20 px-6 bg-gradient-to-b from-transparent via-rose-50/30 to-transparent dark:via-rose-950/10'>
       <div className='max-w-6xl mx-auto'>
         {/* Header */}
         <div className='text-center mb-16'>
