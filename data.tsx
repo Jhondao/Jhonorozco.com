@@ -263,18 +263,17 @@ export const dataServices = [
     },
 ];
 
-
 export const dataPortfolio = [
 
-    // {
-    //     id: 2,
-    //     title: "The Emotions Lab - Malta, Europa",
-    //     image: "/img-principe.png",
-    //     urlGithub: "#!",
-    //     urlDemo: "https://theemotionslabmalta.com/",
-    // },
     {
         id: 1,
+        title: "Fonjaveriana - Cali, Valle del Cauca",
+        image: "/image-fonjaveriana.png",
+        urlGithub: "#!",
+        urlDemo: "https://fonjaveriana.javerianacali.edu.co/",
+    },
+    {
+        id: 2,
         title: "Gocleaning - USA",
         image: "/img-gohcleaning.png",
         urlGithub: "#!",
@@ -294,41 +293,21 @@ export const dataPortfolio = [
         urlGithub: "#!",
         urlDemo: "https://teamupintegral.com/",
     },
+
     {
         id: 5,
-        title: "Trascender Cooperativa - Cali, Valle del Cauca",
-        image: "/img-trascender.png",
-        urlGithub: "#!",
-        urlDemo: "https://trascendercooperativa.com/",
-    },
-    {
-        id: 6,
         title: "Ecommerce Fisio Implements - Cali, Valle del Cauca",
         image: "/img-fisioimplements.png",
         urlGithub: "#!",
         urlDemo: "https://fisioimplements.com/",
     },
-    // {
-    //     id: 7,
-    //     title: "La Selecta Drogueria y Minimarket - Cali, Valle del Cauca",
-    //     image: "/img-selecta.png",
-    //     urlGithub: "#!",
-    //     urlDemo: "https://www.laselecta.com.co/",
-    // },   
     {
-        id: 8,
+        id: 6,
         title: "Ecommerce Maximus Store - Cali, Valle del Cauca",
         image: "/img-maximusstore.png",
         urlGithub: "#!",
         urlDemo: "https://maximustore.com/",
     },
-    // {
-    //     id: 9,
-    //     title: "Ecommerce Annematress - Miami, USA",
-    //     image: "/img-annematress.png",
-    //     urlGithub: "#!",
-    //     urlDemo: "https://annemattress.com/",
-    // }, 
 
 ];
 
@@ -368,6 +347,64 @@ export const dataTestimonials = [
             "Quiero darle mi agradecimiento y recomendación al Sr Jhon Dayron por su profesionalismos y dedicación para crear la página Web de mi negocio y mantener activa y en movimiento la publicidad en las redes sociales, mil gracias y muchos éxitos! ",
         imageUrl: "/profile-3.jpeg",
     },
+];
+
+export const dataProcess = [
+    {
+        id: 1,
+        title: "Descubrimiento",
+        description: "Entiendo tus necesidades, objetivos y audiencia para trazar el camino al éxito.",
+        icon: <Lightbulb />,
+        color: "from-blue-600 to-cyan-500",
+        delay: 100
+    },
+    {
+        id: 2,
+        title: "Diseño y Estrategia",
+        description: "Creo una experiencia visual única y funcional alineada con tu identidad de marca.",
+        icon: <Brush />,
+        color: "from-blue-600 to-cyan-500",
+        delay: 200
+    },
+    {
+        id: 3,
+        title: "Desarrollo",
+        description: "Transformo el diseño en una solución robusta y escalable utilizando tecnología de punta.",
+        icon: <Code2 />,
+        color: "from-blue-600 to-cyan-500",
+        delay: 300
+    },
+    {
+        id: 4,
+        title: "Lanzamiento y Soporte",
+        description: "Despliegue final y acompañamiento continuo para asegurar el rendimiento óptimo.",
+        icon: <Zap />,
+        color: "from-blue-600 to-cyan-500",
+        delay: 400
+    }
+];
+
+export const dataFaq = [
+    {
+        id: 1,
+        question: "¿Qué servicios ofreces exactamente?",
+        answer: "Me especializo en desarrollo web full-stack (específicamente React/Next.js), diseño de interfaces (UI/UX) y soluciones de e-commerce personalizadas. También brindo soporte en SEO y mantenimiento técnico."
+    },
+    {
+        id: 2,
+        question: "¿Cuánto tiempo toma entregar un sitio web?",
+        answer: "El tiempo varía según la complejidad. Una landing page puede estar lista en 1 semana, mientras que una plataforma personalizada o e-commerce puede tomar de 3 a 6 semanas."
+    },
+    {
+        id: 3,
+        question: "¿Ofreces mantenimiento después del lanzamiento?",
+        answer: "¡Claro que sí! Ofrezco planes de mantenimiento mensual que incluyen actualizaciones de seguridad, optimización de velocidad y ajustes menores de contenido."
+    },
+    {
+        id: 4,
+        question: "¿Cómo es el proceso de pago?",
+        answer: "Generalmente manejo un anticipo del 50% para iniciar el proyecto y el 50% restante al finalizar y antes del despliegue final. Acepto diversos métodos de pago locales e internacionales."
+    }
 ];
 
 export const dataContact = [
