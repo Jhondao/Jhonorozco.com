@@ -12,6 +12,8 @@ import { useState } from "react";
 
 const ContactForm = () => {
     const [sucessForm, setSucessForm] = useState(false)
+    const [errorForm, setErrorForm] = useState<string | null>(null)
+    const [isSubmitting, setIsSubmitting] = useState(false)
 
     const formSchema = z.object({
         username: z.string().min(2).max(50),
@@ -29,12 +31,25 @@ const ContactForm = () => {
     })
 
     const onSubmit = async (values: z.infer<typeof formSchema>) => {
-        const response = await fetch("/api/send", {
-            method: "POST",
-            body: JSON.stringify(values)
-        })
-        if (response.status === 200) {
+        setIsSubmitting(true)
+        setErrorForm(null)
+        try {
+            const response = await fetch("/api/send", {
+                method: "POST",
+                body: JSON.stringify(values)
+            })
+            const data = await response.json()
+
+            if (!response.ok || data.error) {
+                setErrorForm(data.error?.message || "Ocurrió un error al enviar el formulario. Por favor, intenta de nuevo.")
+                return
+            }
+
             setSucessForm(true)
+        } catch (error) {
+            setErrorForm("Error de conexión. Por favor, verifica tu internet.")
+        } finally {
+            setIsSubmitting(false)
         }
     }
 
@@ -92,7 +107,12 @@ const ContactForm = () => {
                             </FormItem>
                         )}
                     />
-                    <Button type="submit">Enviar</Button>
+                    <Button type="submit" disabled={isSubmitting}>
+                        {isSubmitting ? "Enviando..." : "Enviar"}
+                    </Button>
+                    {errorForm && (
+                        <p className="text-red-500 text-sm font-medium mt-2">{errorForm}</p>
+                    )}
                 </form>
             )}
         </Form>
