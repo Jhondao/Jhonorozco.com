@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import Image from 'next/image';
 import React from 'react'
-import { Mail, Linkedin, Github } from 'lucide-react';
+import { Mail, Linkedin, Github, Download } from 'lucide-react';
 
 export default function Introduction() {
     return (
@@ -35,7 +35,7 @@ export default function Introduction() {
                                 </span>
                             </h1>
                             <h2 className='text-2xl md:text-3xl text-slate-700 dark:text-slate-300 font-semibold'>
-                                Frontend Developer 💻
+                                Frontend Developer
                             </h2>
                         </div>
 
@@ -53,6 +53,14 @@ export default function Introduction() {
                                 <Mail className='w-5 h-5' />
                                 Contacta Conmigo
                             </Link>
+                            <a
+                                href='/CV_Jhon_Dayron_OrozcoM_Developer.pdf'
+                                download
+                                className='px-8 py-4 bg-white dark:bg-slate-800 text-slate-800 dark:text-white rounded-full font-semibold border-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-500 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2'
+                            >
+                                <Download className='w-5 h-5' />
+                                Descargar CV
+                            </a>
                         </div>
 
                         {/* Social Links */}

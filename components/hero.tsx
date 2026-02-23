@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { ArrowRight, Sparkles } from 'lucide-react';
+import { ArrowRight, Sparkles, Download } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Hero() {

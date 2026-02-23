@@ -7,10 +7,10 @@ const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Jhon Orozco Site 💻",
+    default: "Jhon Orozco | Developer",
     template: "%s | Jhon Orozco",
   },
-  description: "Portafolio web",
+  description: "Jhon Orozco Developer",
   icons: {
     icon: "/favicon.ico",
   },
@@ -24,17 +24,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-6XRMGWD958"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6XRMGWD958"></script>
         <script
-            dangerouslySetInnerHTML={{
-              __html: `
+          dangerouslySetInnerHTML={{
+            __html: `
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
                 gtag('config', 'G-6XRMGWD958');
               `,
-            }}
-          />
+          }}
+        />
       </head>
       <body className={urbanist.className}>
         <ThemeProvider
