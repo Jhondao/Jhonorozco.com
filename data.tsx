@@ -301,13 +301,6 @@ export const dataPortfolio = [
         urlGithub: "#!",
         urlDemo: "https://fisioimplements.com/",
     },
-    {
-        id: 6,
-        title: "Ecommerce Maximus Store - Cali, Valle del Cauca",
-        image: "/img-maximusstore.png",
-        urlGithub: "#!",
-        urlDemo: "https://maximustore.com/",
-    },
 
 ];
 

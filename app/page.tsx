@@ -17,9 +17,9 @@ export default function Maintenance() {
       <Hero />
       <Beneficios />
       <Services />
+      <TimelineProcess />
       <Porfolio />
       <Testimonials />
-      <TimelineProcess />
       <FAQ />
       <Contact />
       <Footer />

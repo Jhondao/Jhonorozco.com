@@ -18,7 +18,7 @@ const Porfolio = () => {
                     </div>
                     <h2 className='text-4xl md:text-5xl font-bold mb-4'>
                         <span className='bg-gradient-to-r from-green-600 to-teal-600 dark:from-green-400 dark:to-teal-400 bg-clip-text text-transparent'>
-                            Portfolio
+                            Portafolio
                         </span>
                         <span className='text-slate-800 dark:text-white'> de Proyectos</span>
                     </h2>
