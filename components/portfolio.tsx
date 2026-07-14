@@ -28,11 +28,11 @@ const Porfolio = () => {
                 </div>
 
                 {/* Portfolio Grid */}
-                <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
+                <div className='flex flex-wrap justify-center gap-8'>
                     {dataPortfolio.map((data, index) => (
                         <div
                             key={data.id}
-                            className='group relative bg-white dark:bg-slate-800/50 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:border-green-500/50 dark:hover:border-green-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-green-500/10 hover:-translate-y-2'
+                            className='group relative bg-white dark:bg-slate-800/50 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:border-green-500/50 dark:hover:border-green-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-green-500/10 hover:-translate-y-2 w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.35rem)]'
                             style={{ animationDelay: `${index * 100}ms` }}
                         >
                             {/* Image Container */}
