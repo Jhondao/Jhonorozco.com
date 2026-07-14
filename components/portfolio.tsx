@@ -61,7 +61,7 @@ const Porfolio = () => {
                             </div>
 
                             {/* Content */}
-                            <div className='p-6'>
+                            <div className='p-6 text-center'>
                                 <h3 className='text-lg font-bold text-slate-800 dark:text-white group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors line-clamp-2'>
                                     {data.title}
                                 </h3>
