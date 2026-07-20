@@ -8,12 +8,15 @@ import { Form, FormControl, FormField, FormItem, FormMessage } from "./ui/form";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { Button } from "./ui/button";
-import { useState } from "react";
+import { useRef, useState } from "react";
+
+const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
 
 const ContactForm = () => {
     const [sucessForm, setSucessForm] = useState(false)
     const [errorForm, setErrorForm] = useState<string | null>(null)
     const [isSubmitting, setIsSubmitting] = useState(false)
+    const botcheckRef = useRef<HTMLInputElement>(null)
 
     const formSchema = z.object({
         username: z.string().min(2).max(50),
@@ -34,14 +37,26 @@ const ContactForm = () => {
         setIsSubmitting(true)
         setErrorForm(null)
         try {
-            const response = await fetch("/api/send", {
+            if (botcheckRef.current?.checked) {
+                setSucessForm(true)
+                return
+            }
+
+            const response = await fetch(WEB3FORMS_ENDPOINT, {
                 method: "POST",
-                body: JSON.stringify(values)
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY,
+                    subject: "Nuevo mensaje - Portafolio JhonOrozco.com",
+                    name: values.username,
+                    email: values.email,
+                    message: values.message,
+                })
             })
             const data = await response.json()
 
-            if (!response.ok || data.error) {
-                setErrorForm(data.error?.message || "Ocurrió un error al enviar el formulario. Por favor, intenta de nuevo.")
+            if (!response.ok || !data.success) {
+                setErrorForm(data.message || "Ocurrió un error al enviar el formulario. Por favor, intenta de nuevo.")
                 return
             }
 
@@ -59,6 +74,15 @@ const ContactForm = () => {
                 <h4>Formulario se ha enviado con éxito ✌🏽</h4>
             ) : (
                 <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+                    <input
+                        type="checkbox"
+                        ref={botcheckRef}
+                        name="botcheck"
+                        tabIndex={-1}
+                        autoComplete="off"
+                        className="hidden"
+                        aria-hidden="true"
+                    />
                     <FormField
                         control={form.control}
                         name="username"
