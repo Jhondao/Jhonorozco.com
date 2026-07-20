@@ -1,5 +1,3 @@
-"use client";
-
 import { dataContact } from "@/data";
 import Link from 'next/link';
 import ContactForm from "./contact-form";

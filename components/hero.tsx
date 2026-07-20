@@ -1,5 +1,3 @@
-"use client";
-
 import React from 'react';
 import Image from 'next/image';
 import { ArrowRight, Sparkles, Download } from 'lucide-react';
@@ -88,22 +86,6 @@ export default function Hero() {
                     </div>
                 </div>
             </div>
-
-            {/* Custom CSS for gradient animation */}
-            <style jsx>{`
-                @keyframes gradient {
-                    0%, 100% {
-                        background-position: 0% 50%;
-                    }
-                    50% {
-                        background-position: 100% 50%;
-                    }
-                }
-                .animate-gradient {
-                    background-size: 200% auto;
-                    animation: gradient 3s ease infinite;
-                }
-            `}</style>
         </section>
     );
 }

@@ -1,5 +1,3 @@
-"use client";
-
 import React from 'react'
 import { dataServices } from '@/data'
 import { Check } from 'lucide-react'

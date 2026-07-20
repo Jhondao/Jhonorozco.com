@@ -1,5 +1,3 @@
-"use client";
-
 import React from 'react';
 import { dataFaq } from '@/data';
 import { HelpCircle } from 'lucide-react';
