@@ -1,28 +1,28 @@
-import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench, Shield, Zap, HeadphonesIcon, TrendingUp, Award, Clock, Lightbulb, Users, Target, MessageSquare } from "lucide-react";
+import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench, Shield, Zap, HeadphonesIcon, TrendingUp, Award, Clock, Lightbulb, Users, Target, MessageSquare, MessageCircle } from "lucide-react";
 
 
 export const itemsNavbar = [
     {
         id: 1,
-        title: "Home",
+        title: "Inicio",
         icon: <Home size={20} />,
         link: "#home",
     },
     {
         id: 2,
-        title: "Book",
+        title: "Servicios",
         icon: <BookText size={20} />,
         link: "#services",
     },
     {
         id: 3,
-        title: "Target",
+        title: "Portafolio",
         icon: <CodeSquare size={20} />,
         link: "#portfolio",
     },
     {
         id: 4,
-        title: "Home",
+        title: "Contacto",
         icon: <Mail size={20} />,
         link: "#contact",
     },
@@ -403,23 +403,30 @@ export const dataFaq = [
 export const dataContact = [
     {
         id: 1,
+        title: "WhatsApp",
+        subtitle: "+57 316 629 3520",
+        link: "https://wa.me/573166293520?text=Hola%20Jhon%2C%20quiero%20cotizar%20un%20proyecto",
+        icon: <MessageCircle />,
+    },
+    {
+        id: 2,
         title: "Teléfono",
         subtitle: "+57 3166293520",
         link: "tel:+573166293520",
         icon: <Phone />,
     },
     {
-        id: 2,
+        id: 3,
         title: "Github",
         subtitle: "github.com/jhondao",
-        link: "github.com/jhondao",
+        link: "https://github.com/jhondao",
         icon: <Code2 />,
     },
     {
-        id: 3,
+        id: 4,
         title: "Email",
         subtitle: "jhondao.desarrollo@hotmail.com",
-        link: "mailto:jhondao.desarrollo@hotmail.com25",
+        link: "mailto:jhondao.desarrollo@hotmail.com",
         icon: <Inbox />,
     },
 ];
