@@ -3,6 +3,8 @@ import { Urbanist } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from '../components/theme-provider';
+import Maintenance from '../components/maintenance';
+import { MAINTENANCE_MODE } from '../lib/site-config';
 
 const urbanist = Urbanist({ subsets: ["latin"] });
 
@@ -93,7 +95,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          {MAINTENANCE_MODE ? <Maintenance /> : children}
         </ThemeProvider>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-6XRMGWD958"
