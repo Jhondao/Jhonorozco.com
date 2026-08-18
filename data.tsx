@@ -576,5 +576,14 @@ export const dataProyects = [
         tecnologies: ["NextJs", "Supabase", "Tailwind CSS", "Typescript", "Vercel", "Figma", "Shadcn UI"],
         url: "https://en-ruta-app-gamma.vercel.app/"
     },
+    {
+        id: 2,
+        title: "AquiAyudamosVE",
+        description:
+            "Plataforma para coordinar albergues, centros de acopio y necesidades comunitarias en cualquier lugar de Colombia, creada como respuesta al terremoto de agosto de 2026 en Cali. Cualquiera puede reportar o pedir ayuda sin crear cuenta; la propia comunidad confirma la información y un sistema de reputación prioriza lo más confiable en un mapa en tiempo real.",
+        image: "/img-proyecto-aquiayudamosve.png",
+        tecnologies: ["React", "TypeScript", "Node.js", "Express", "Prisma", "MySQL", "Tailwind CSS"],
+        url: "https://aquiayudamosve.co/"
+    },
 ];
 
