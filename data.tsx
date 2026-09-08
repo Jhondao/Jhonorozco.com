@@ -267,27 +267,34 @@ export const dataPortfolio = [
 
     {
         id: 1,
+        title: "The Emotions Lab - Malta, República de Malta",
+        image: "/img-theemotionslab.png",
+        urlGithub: "#!",
+        urlDemo: "https://theemotionslabmalta.com/",
+    },
+    {
+        id: 2,
         title: "Fonjaveriana - Cali, Valle del Cauca",
         image: "/image-fonjaveriana.png",
         urlGithub: "#!",
         urlDemo: "https://fonjaveriana.javerianacali.edu.co/",
     },
     {
-        id: 2,
+        id: 3,
         title: "Gocleaning - USA",
         image: "/img-gohcleaning.png",
         urlGithub: "#!",
         urlDemo: "https://gohcleaning.com/",
     },
     {
-        id: 3,
+        id: 4,
         title: "Keelcur - Candelaria, Valle del Cauca",
         image: "/img-keelcur.png",
         urlGithub: "#!",
         urlDemo: "https://keelcur.com/",
     },
     {
-        id: 4,
+        id: 5,
         title: "TeamUp Integral Service - Miami, USA",
         image: "/img-teamupintegral.png",
         urlGithub: "#!",
@@ -295,7 +302,7 @@ export const dataPortfolio = [
     },
 
     {
-        id: 5,
+        id: 6,
         title: "Ecommerce Fisio Implements - Cali, Valle del Cauca",
         image: "/img-fisioimplements.png",
         urlGithub: "#!",
