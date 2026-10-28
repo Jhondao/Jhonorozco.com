@@ -301,14 +301,6 @@ export const dataPortfolio = [
         urlDemo: "https://teamupintegral.com/",
     },
 
-    {
-        id: 6,
-        title: "Ecommerce Fisio Implements - Cali, Valle del Cauca",
-        image: "/img-fisioimplements.png",
-        urlGithub: "#!",
-        urlDemo: "https://fisioimplements.com/",
-    },
-
 ];
 
 export const dataTestimonials = [
