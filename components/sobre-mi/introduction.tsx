@@ -54,7 +54,7 @@ export default function Introduction() {
                                 Contacta Conmigo
                             </Link>
                             <a
-                                href='/CV_Jhon_Dayron_OrozcoM_Developer.pdf'
+                                href='/CV_Ing_Jhon_Dayron_Orozco_Meneses.pdf'
                                 download
                                 className='px-8 py-4 bg-white dark:bg-slate-800 text-slate-800 dark:text-white rounded-full font-semibold border-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 dark:hover:border-blue-500 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2'
                             >
@@ -95,7 +95,7 @@ export default function Introduction() {
                         <div className='relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800'>
                             <div className='absolute inset-0 bg-gradient-to-t from-blue-500/20 via-transparent to-transparent z-10'></div>
                             <Image
-                                src="/imagen-portafolio-jhonorozco.png"
+                                src="/imagen_perfil_jhonorozco.png"
                                 alt="Jhon Orozco - Frontend Developer"
                                 width={450}
                                 height={450}
