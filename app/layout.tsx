@@ -5,6 +5,7 @@ import "./globals.css";
 import { ThemeProvider } from '../components/theme-provider';
 import Maintenance from '../components/maintenance';
 import { MAINTENANCE_MODE } from '../lib/site-config';
+import { CommandPalette } from '../components/command-palette';
 
 const urbanist = Urbanist({ subsets: ["latin"] });
 
@@ -98,6 +99,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {MAINTENANCE_MODE ? <Maintenance /> : children}
+          <CommandPalette />
         </ThemeProvider>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-6XRMGWD958"

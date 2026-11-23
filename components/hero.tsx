@@ -1,7 +1,7 @@
 import React from 'react';
-import Image from 'next/image';
-import { ArrowRight, Sparkles, Download } from 'lucide-react';
+import { ArrowRight, Sparkles } from 'lucide-react';
 import Link from 'next/link';
+import TerminalHero from './terminal-hero';
 
 export default function Hero() {
     return (
@@ -53,37 +53,9 @@ export default function Hero() {
                     </Link>
                 </div>
 
-                {/* Hero Image */}
+                {/* Hero Terminal */}
                 <div className='relative w-full max-w-3xl mx-auto'>
-                    <div className='relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800'>
-                        {/* Decorative gradient overlay */}
-                        <div className='absolute inset-0 bg-gradient-to-t from-blue-500/20 via-transparent to-transparent z-10'></div>
-
-                        <Image
-                            src='/hero-services.jpg'
-                            alt='Servicios Profesionales de Desarrollo Web'
-                            width={1200}
-                            height={600}
-                            className='w-full h-auto object-cover'
-                            priority
-                        />
-                    </div>
-
-                    {/* Floating stats cards */}
-                    <div className='absolute -bottom-8 left-4 right-4 flex flex-wrap gap-4 justify-center'>
-                        <div className='bg-white dark:bg-slate-800 rounded-xl px-6 py-4 shadow-lg border border-slate-200 dark:border-slate-700 backdrop-blur-sm'>
-                            <p className='text-2xl font-bold text-blue-600 dark:text-blue-400'>50+</p>
-                            <p className='text-sm text-slate-600 dark:text-slate-400'>Proyectos</p>
-                        </div>
-                        <div className='bg-white dark:bg-slate-800 rounded-xl px-6 py-4 shadow-lg border border-slate-200 dark:border-slate-700 backdrop-blur-sm'>
-                            <p className='text-2xl font-bold text-blue-600 dark:text-blue-400'>100%</p>
-                            <p className='text-sm text-slate-600 dark:text-slate-400'>Satisfacción</p>
-                        </div>
-                        <div className='bg-white dark:bg-slate-800 rounded-xl px-6 py-4 shadow-lg border border-slate-200 dark:border-slate-700 backdrop-blur-sm'>
-                            <p className='text-2xl font-bold text-blue-600 dark:text-blue-400'>24/7</p>
-                            <p className='text-sm text-slate-600 dark:text-slate-400'>Soporte</p>
-                        </div>
-                    </div>
+                    <TerminalHero />
                 </div>
             </div>
         </section>
