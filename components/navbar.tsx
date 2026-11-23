@@ -6,9 +6,9 @@ import { ToggleTheme } from './toggle-theme'
 export default function Navbar() {
   return (
     <nav className='fixed z-20 flex flex-col items-center w-full mt-auto justify-center h-max bottom-20'>  
-        <div className='flex items-center gap-0.5 sm:gap-2 justify-center px-2 sm:px-4 py-1 dark:bg-white/10 bg-slate-800/10 backdrop-blur-sm rounded-full '>
+        <div className='flex items-center gap-0.5 sm:gap-2 md:gap-3 justify-center px-2 sm:px-4 md:px-5 py-1 md:py-2 dark:bg-white/10 bg-slate-800/10 backdrop-blur-sm rounded-full '>
             {itemsNavbar.map((item) => (
-                <div key={item.id} className='courser-pointer hover:dark-bg-slate-800 hover:bg-slate-400 px-2 sm:px-3 py-2 rounded-full transition duration-150'>
+                <div key={item.id} className='courser-pointer hover:dark-bg-slate-800 hover:bg-slate-400 px-2 sm:px-3 md:px-4 py-2 md:py-2.5 rounded-full transition duration-150'>
                     <Link href={item.link} aria-label={item.title}> {item.icon} </Link>
                 </div>
             ))}
