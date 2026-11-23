@@ -10,18 +10,20 @@ const urbanist = Urbanist({ subsets: ["latin"] });
 
 const siteUrl = "https://jhonorozco.com";
 const siteDescription =
-  "Desarrollador web freelance especializado en React, Next.js y diseño UI/UX. Creo sitios y aplicaciones web modernas, rápidas y a medida para negocios en Colombia y Latinoamérica.";
+  "Desarrollador Full Stack / Frontend freelance especializado en React, Next.js, React Native y Drupal. Creo sitios y aplicaciones web y móviles modernas, rápidas y a medida para negocios en Colombia y Latinoamérica.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Jhon Orozco | Desarrollador Web Frontend",
+    default: "Jhon Orozco | Desarrollador Full Stack / Frontend",
     template: "%s | Jhon Orozco",
   },
   description: siteDescription,
   keywords: [
     "desarrollador web freelance",
+    "desarrollador full stack",
     "desarrollador frontend",
+    "React Native",
     "Next.js",
     "React",
     "diseño UI/UX",
@@ -41,22 +43,22 @@ export const metadata: Metadata = {
     locale: "es_CO",
     url: siteUrl,
     siteName: "Jhon Orozco | Desarrollador Web",
-    title: "Jhon Orozco | Desarrollador Web Frontend",
+    title: "Jhon Orozco | Desarrollador Full Stack / Frontend",
     description: siteDescription,
     images: [
       {
-        url: "/imagen-portafolio-jhonorozco.png",
-        width: 900,
-        height: 900,
-        alt: "Jhon Orozco - Frontend Developer",
+        url: "/imagen_perfil_jhonorozco.png",
+        width: 1000,
+        height: 1000,
+        alt: "Jhon Orozco - Full Stack / Frontend Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jhon Orozco | Desarrollador Web Frontend",
+    title: "Jhon Orozco | Desarrollador Full Stack / Frontend",
     description: siteDescription,
-    images: ["/imagen-portafolio-jhonorozco.png"],
+    images: ["/imagen_perfil_jhonorozco.png"],
   },
 };
 
@@ -66,15 +68,15 @@ const personJsonLd = {
   name: "Jhon Dayron Orozco",
   alternateName: "Jhon Orozco",
   url: siteUrl,
-  image: `${siteUrl}/imagen-portafolio-jhonorozco.png`,
-  jobTitle: "Frontend Developer",
+  image: `${siteUrl}/imagen_perfil_jhonorozco.png`,
+  jobTitle: "Full Stack / Frontend Developer",
   description: siteDescription,
   email: "mailto:jhondao.desarrollo@hotmail.com",
   sameAs: [
     "https://www.linkedin.com/in/jhondao-orozco/",
     "https://github.com/jhondao",
   ],
-  knowsAbout: ["React", "Next.js", "TypeScript", "Tailwind CSS", "UI/UX Design"],
+  knowsAbout: ["React", "Next.js", "React Native", "TypeScript", "Drupal", "Tailwind CSS", "UI/UX Design"],
 };
 
 export default function RootLayout({

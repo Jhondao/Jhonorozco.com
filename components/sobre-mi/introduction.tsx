@@ -35,7 +35,7 @@ export default function Introduction() {
                                 </span>
                             </h1>
                             <h2 className='text-2xl md:text-3xl text-slate-700 dark:text-slate-300 font-semibold'>
-                                Frontend Developer
+                                Full Stack / Frontend Developer
                             </h2>
                         </div>
 

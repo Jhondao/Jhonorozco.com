@@ -31,17 +31,18 @@ export default function SobreMi() {
           <div className='relative z-10 space-y-6'>
 
             <p className='text-lg text-slate-700 dark:text-slate-300 leading-relaxed text-center'>
-              Soy un desarrollador frontend con más de 7 años de experiencia en el diseño
-              y desarrollo de aplicaciones web modernas. Mi enfoque se centra en crear
-              interfaces de usuario intuitivas, accesibles y de alto rendimiento, utilizando
+              Soy un desarrollador Full Stack / Frontend con más de 7 años de experiencia en el
+              diseño y desarrollo de aplicaciones web y móviles modernas. Mi enfoque se centra en
+              crear interfaces de usuario intuitivas, accesibles y de alto rendimiento, utilizando
               las últimas tecnologías y mejores prácticas del desarrollo web.
             </p>
 
             <p className='text-lg text-slate-700 dark:text-slate-300 leading-relaxed text-center'>
               A lo largo de mi carrera, he trabajado en proyectos diversos que van desde
-              sitios web corporativos hasta aplicaciones web complejas y escalables. Me
-              especializo en React, Next.js y el ecosistema de JavaScript moderno, siempre
-              manteniendo un equilibrio entre funcionalidad, diseño y experiencia de usuario.
+              sitios web corporativos hasta aplicaciones web y móviles complejas y escalables. Me
+              especializo en React, Next.js, React Native y el ecosistema de JavaScript moderno,
+              además de integración de APIs REST y soluciones sobre Drupal, siempre manteniendo
+              un equilibrio entre funcionalidad, diseño y experiencia de usuario.
             </p>
 
             <p className='text-lg text-slate-700 dark:text-slate-300 leading-relaxed text-center'>

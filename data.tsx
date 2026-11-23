@@ -126,6 +126,16 @@ export const dataExperience = [
                 value: 70,
             },
             {
+                name: "TypeScript",
+                subtitle: "Experimentado",
+                value: 75,
+            },
+            {
+                name: "React Native",
+                subtitle: "Intermedio",
+                value: 70,
+            },
+            {
                 name: "Tailwind CSS - Bootstrap",
                 subtitle: "Experimentado",
                 value: 60,
@@ -142,6 +152,11 @@ export const dataExperience = [
         id: 2,
         title: "Backend Development  🥷",
         experience: [
+            {
+                name: "REST APIs",
+                subtitle: "Experimentado",
+                value: 85,
+            },
             {
                 name: "PHP",
                 subtitle: "Experimentado",
@@ -469,15 +484,15 @@ export const itemsNavbarAboutMe = [
     },
     {
         id: 3,
-        title: "Habilidades",
-        icon: <BellPlus size={20} />,
-        link: "#soft-skills",
-    },
-    {
-        id: 4,
         title: "Experiencia",
         icon: <Code2 size={20} />,
         link: "#experience",
+    },
+    {
+        id: 4,
+        title: "Habilidades",
+        icon: <BellPlus size={20} />,
+        link: "#soft-skills",
     },
     {
         id: 5,
@@ -496,25 +511,109 @@ export const itemsNavbarAboutMe = [
 export const dataEducacion = [
     {
         id: 1,
-        title: "Ingeniería de Sistemas",
+        title: "Especialización en Seguridad Informática",
         institution: "UNAD",
-        period: "2023 - 2026",
-        description: "Formación integral en desarrollo de software, bases de datos, arquitectura de sistemas y gestión de proyectos tecnológicos."
+        period: "2026 - 2027 (en curso)",
+        description: "Especialización enfocada en identificación y remediación de vulnerabilidades, seguridad de aplicaciones y servicios digitales."
     },
     {
         id: 2,
+        title: "Ingeniería de Sistemas",
+        institution: "UNAD",
+        period: "2023 - 2027 (grado esperado)",
+        description: "Formación integral en desarrollo de software, bases de datos, arquitectura de sistemas y gestión de proyectos tecnológicos."
+    },
+    {
+        id: 3,
         title: "Tecnologo ADSI",
         institution: "SENA",
         period: "2016 - 2018",
         description: "Formación integral en desarrollo de software, bases de datos, arquitectura de sistemas y gestión de proyectos tecnológicos."
     },
     {
-        id: 3,
+        id: 4,
         title: "Diseño UI/UX",
         institution: "Udemy",
         period: "2025 - 2026",
         description: "Certificación en diseño de interfaces de usuario y experiencia de usuario, prototipado y testing de usabilidad."
     }
+];
+
+export const dataWorkExperience = [
+    {
+        id: 1,
+        role: "Analista de Soluciones de Negocio",
+        company: "Comfandi",
+        period: "Octubre 2026 - Actualidad",
+        bullets: [
+            "Validación de integraciones entre sistemas mediante análisis de solicitudes, respuestas, payloads y comportamiento de APIs.",
+            "Análisis y seguimiento de incidentes en plataformas de e-commerce, servicios e integraciones.",
+            "Levantamiento de requerimientos funcionales y técnicos para soluciones digitales y de comercio electrónico.",
+            "Trabajo bajo Scrum con equipos de tecnología y proveedores, gestionando historias de usuario en Jira.",
+        ],
+    },
+    {
+        id: 2,
+        role: "Analista del Ecosistema Digital",
+        company: "Pontificia Universidad Javeriana de Cali",
+        period: "Mayo 2025 - Octubre 2026",
+        bullets: [
+            "Desarrollo, mantenimiento y estabilización de aplicaciones móviles institucionales con React Native.",
+            "Integración y consumo de APIs REST para sincronizar información entre plataformas.",
+            "Desarrollo e implementación de mejoras sobre portales institucionales basados en Drupal.",
+            "Administración técnica de SharePoint Online y soporte a usuarios.",
+        ],
+        highlights: [
+            "Lideró la actualización tecnológica de la app móvil institucional, mejorando compatibilidad con versiones recientes de Android e iOS.",
+            "Desarrolló la aplicación móvil Campus Javeriana Cali en React Native (Expo).",
+            "Participó en la identificación y remediación de vulnerabilidades en aplicaciones y servicios digitales.",
+        ],
+    },
+    {
+        id: 3,
+        role: "Desarrollador Web",
+        company: "Pontificia Universidad Javeriana de Cali",
+        period: "Octubre 2021 - Mayo 2025",
+        bullets: [
+            "Desarrollo y mantenimiento de sitios institucionales utilizando Drupal y WordPress.",
+            "Implementación de nuevas funcionalidades con HTML, CSS, JavaScript y PHP.",
+            "Desarrollo de componentes y personalización de temas en Drupal.",
+            "Optimización SEO y de rendimiento de sitios web.",
+        ],
+    },
+    {
+        id: 4,
+        role: "Web Master",
+        company: "América de Cali",
+        period: "Marzo 2021 - Octubre 2021",
+        bullets: [
+            "Desarrollo de nuevas funcionalidades utilizando PHP, JavaScript y WooCommerce.",
+            "Personalización de WooCommerce e integración con SIESA.",
+            "Implementación de mejoras UX/UI y optimización del portal institucional.",
+        ],
+    },
+    {
+        id: 5,
+        role: "Desarrollador Web",
+        company: "Teatro Esquina Latina",
+        period: "Febrero 2018 - Marzo 2021",
+        bullets: [
+            "Desarrollo y mantenimiento de plataformas y sitios web institucionales.",
+            "Mejoras funcionales y de experiencia de usuario en los canales digitales.",
+            "Implementación de un nuevo sitio web para fortalecer la presencia digital de la organización.",
+        ],
+    },
+    {
+        id: 6,
+        role: "Desarrollador Freelance",
+        company: "jhonorozco.com",
+        period: "Febrero 2018 - Actualidad",
+        bullets: [
+            "Desarrollo de aplicaciones y sitios web utilizando React, Next.js y WordPress.",
+            "Desarrollo de tiendas virtuales con WooCommerce e integración de APIs REST y servicios de terceros.",
+            "Optimización SEO, rendimiento web y administración de infraestructura y despliegues.",
+        ],
+    },
 ];
 
 export const dataSoftSkills = [

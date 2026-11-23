@@ -1,5 +1,3 @@
-"use client";
-
 import { dataExperience } from '@/data'
 import { BadgeCheck } from 'lucide-react'
 import React from 'react'
@@ -7,7 +5,7 @@ import { Progress } from '../ui/progress'
 
 export default function Experience() {
   return (
-    <section id="experience" className='py-20 px-6 bg-gradient-to-b from-transparent via-rose-50/30 to-transparent dark:via-rose-950/10'>
+    <section id="stack-tecnico" className='py-20 px-6 bg-gradient-to-b from-transparent via-rose-50/30 to-transparent dark:via-rose-950/10'>
       <div className='max-w-6xl mx-auto'>
         {/* Header */}
         <div className='text-center mb-16'>
@@ -18,9 +16,9 @@ export default function Experience() {
           </div>
           <h2 className='text-4xl md:text-5xl font-bold mb-4'>
             <span className='bg-gradient-to-r from-rose-600 to-pink-600 dark:from-rose-400 dark:to-pink-400 bg-clip-text text-transparent'>
-              Experiencia
+              Stack
             </span>
-            <span className='text-slate-800 dark:text-white'> & Skills</span>
+            <span className='text-slate-800 dark:text-white'> Técnico</span>
           </h2>
           <p className='text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto'>
             Tecnologías y herramientas con las que trabajo día a día
