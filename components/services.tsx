@@ -8,13 +8,13 @@ export default function Services() {
             <div className='max-w-6xl mx-auto'>
                 {/* Header */}
                 <div className='text-center mb-16'>
-                    <div className='inline-block px-4 py-2 mb-4 rounded-full bg-gradient-to-r from-blue-500/10 to-purple-500/10 dark:from-blue-500/20 dark:to-purple-500/20 backdrop-blur-sm border border-blue-500/20'>
-                        <span className='text-sm font-medium bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 bg-clip-text text-transparent'>
+                    <div className='inline-block px-4 py-2 mb-4 rounded-full bg-gradient-to-r from-blue-500/10 to-cyan-500/10 dark:from-blue-500/20 dark:to-cyan-500/20 backdrop-blur-sm border border-blue-500/20'>
+                        <span className='text-sm font-medium bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 bg-clip-text text-transparent'>
                             Lo que ofrezco
                         </span>
                     </div>
                     <h2 className='text-4xl md:text-5xl font-bold mb-4'>
-                        <span className='bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 bg-clip-text text-transparent'>
+                        <span className='bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 bg-clip-text text-transparent'>
                             Servicios
                         </span>
                         <span className='text-slate-800 dark:text-white'> Profesionales</span>
@@ -33,11 +33,11 @@ export default function Services() {
                             style={{ animationDelay: `${index * 100}ms` }}
                         >
                             {/* Gradient overlay on hover */}
-                            <div className='absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5 dark:from-blue-500/10 dark:to-purple-500/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
+                            <div className='absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 dark:from-blue-500/10 dark:to-cyan-500/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
 
                             <div className='relative z-10'>
                                 {/* Icon with gradient background */}
-                                <div className='inline-flex p-4 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg'>
+                                <div className='inline-flex p-4 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-600 mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg'>
                                     <div className='text-white'>
                                         {service.icon}
                                     </div>
@@ -56,7 +56,7 @@ export default function Services() {
                                             className='flex gap-3 items-start text-slate-600 dark:text-slate-300 group-hover:text-slate-700 dark:group-hover:text-slate-200 transition-colors'
                                         >
                                             <div className='flex-shrink-0 mt-1'>
-                                                <div className='p-1 rounded-full bg-gradient-to-br from-blue-500 to-purple-600'>
+                                                <div className='p-1 rounded-full bg-gradient-to-br from-blue-500 to-cyan-600'>
                                                     <Check size={14} className='text-white' />
                                                 </div>
                                             </div>
@@ -67,7 +67,7 @@ export default function Services() {
                             </div>
 
                             {/* Decorative corner gradient */}
-                            <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-2xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500'></div>
+                            <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-500/10 to-cyan-500/10 rounded-2xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500'></div>
                         </div>
                     ))}
                 </div>

@@ -9,12 +9,12 @@ export default function Beneficios() {
                 {/* Header */}
                 <div className='text-center mb-16'>
                     <div className='inline-block px-4 py-2 mb-4 rounded-full bg-gradient-to-r from-blue-500/10 to-blue-500/10 dark:from-blue-500/20 dark:to-blue-500/20 backdrop-blur-sm border border-blue-500/20'>
-                        <span className='text-sm font-medium bg-gradient-to-r from-blue-600 to-blue-600 dark:from-blue-400 dark:to-blue-400 bg-clip-text text-transparent'>
+                        <span className='text-sm font-medium bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 bg-clip-text text-transparent'>
                             ¿Por qué elegirme?
                         </span>
                     </div>
                     <h2 className='text-4xl md:text-5xl font-bold mb-4'>
-                        <span className='bg-gradient-to-r from-blue-600 to-blue-600 dark:from-blue-400 dark:to-blue-400 bg-clip-text text-transparent'>
+                        <span className='bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 bg-clip-text text-transparent'>
                             Beneficios
                         </span>
                         <span className='text-slate-800 dark:text-white'> que Marcan la Diferencia</span>
@@ -68,7 +68,7 @@ export default function Beneficios() {
                         </div>
                         <a
                             href='#contact'
-                            className='px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-700 hover:to-blue-700 text-white rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 whitespace-nowrap'
+                            className='px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 whitespace-nowrap'
                         >
                             Contactar Ahora
                         </a>

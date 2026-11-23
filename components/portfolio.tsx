@@ -5,17 +5,17 @@ import { ExternalLink } from 'lucide-react';
 
 const Porfolio = () => {
     return (
-        <section className="py-20 px-6 bg-gradient-to-b from-transparent via-green-50/30 to-transparent dark:via-green-950/10" id="portfolio">
+        <section className="py-20 px-6 bg-gradient-to-b from-transparent via-blue-50/30 to-transparent dark:via-blue-950/10" id="portfolio">
             <div className='max-w-6xl mx-auto'>
                 {/* Header */}
                 <div className='text-center mb-16'>
-                    <div className='inline-block px-4 py-2 mb-4 rounded-full bg-gradient-to-r from-green-500/10 to-teal-500/10 dark:from-green-500/20 dark:to-teal-500/20 backdrop-blur-sm border border-green-500/20'>
-                        <span className='text-sm font-medium bg-gradient-to-r from-green-600 to-teal-600 dark:from-green-400 dark:to-teal-400 bg-clip-text text-transparent'>
+                    <div className='inline-block px-4 py-2 mb-4 rounded-full bg-gradient-to-r from-blue-500/10 to-cyan-500/10 dark:from-blue-500/20 dark:to-cyan-500/20 backdrop-blur-sm border border-blue-500/20'>
+                        <span className='text-sm font-medium bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 bg-clip-text text-transparent'>
                             Mis Trabajos
                         </span>
                     </div>
                     <h2 className='text-4xl md:text-5xl font-bold mb-4'>
-                        <span className='bg-gradient-to-r from-green-600 to-teal-600 dark:from-green-400 dark:to-teal-400 bg-clip-text text-transparent'>
+                        <span className='bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 bg-clip-text text-transparent'>
                             Portafolio
                         </span>
                         <span className='text-slate-800 dark:text-white'> de Proyectos</span>
@@ -30,7 +30,7 @@ const Porfolio = () => {
                     {dataPortfolio.map((data, index) => (
                         <div
                             key={data.id}
-                            className='group relative bg-white dark:bg-slate-800/50 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:border-green-500/50 dark:hover:border-green-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-green-500/10 hover:-translate-y-2 w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.35rem)]'
+                            className='group relative bg-white dark:bg-slate-800/50 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:border-blue-500/50 dark:hover:border-blue-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/10 hover:-translate-y-2 w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.35rem)]'
                             style={{ animationDelay: `${index * 100}ms` }}
                         >
                             {/* Image Container */}
@@ -60,13 +60,13 @@ const Porfolio = () => {
 
                             {/* Content */}
                             <div className='p-6 text-center'>
-                                <h3 className='text-lg font-bold text-slate-800 dark:text-white group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors line-clamp-2'>
+                                <h3 className='text-lg font-bold text-slate-800 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2'>
                                     {data.title}
                                 </h3>
                             </div>
 
                             {/* Decorative corner gradient */}
-                            <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-green-500/10 to-teal-500/10 rounded-2xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500'></div>
+                            <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-500/10 to-cyan-500/10 rounded-2xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500'></div>
                         </div>
                     ))}
                 </div>

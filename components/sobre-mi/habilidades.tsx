@@ -6,17 +6,17 @@ import { dataSoftSkills } from '@/data';
 
 export default function Habilidades() {
     return (
-        <section id="soft-skills" className="py-20 px-6 bg-gradient-to-b from-transparent via-slate-50/30 to-transparent dark:via-slate-900/10">
+        <section id="soft-skills" className="py-20 px-6 bg-gradient-to-b from-transparent via-blue-50/30 to-transparent dark:via-blue-950/10">
             <div className='max-w-6xl mx-auto'>
                 {/* Header */}
                 <div className='text-center mb-16'>
-                    <div className='inline-block px-4 py-2 mb-4 rounded-full bg-gradient-to-r from-slate-500/10 to-gray-500/10 dark:from-slate-500/20 dark:to-gray-500/20 backdrop-blur-sm border border-slate-500/20'>
-                        <span className='text-sm font-medium bg-gradient-to-r from-slate-600 to-gray-600 dark:from-slate-400 dark:to-gray-400 bg-clip-text text-transparent'>
+                    <div className='inline-block px-4 py-2 mb-4 rounded-full bg-gradient-to-r from-blue-500/10 to-cyan-500/10 dark:from-blue-500/20 dark:to-cyan-500/20 backdrop-blur-sm border border-blue-500/20'>
+                        <span className='text-sm font-medium bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 bg-clip-text text-transparent'>
                             Habilidades Blandas
                         </span>
                     </div>
                     <h2 className='text-4xl md:text-5xl font-bold mb-4'>
-                        <span className='bg-gradient-to-r from-slate-600 to-gray-600 dark:from-slate-400 dark:to-gray-400 bg-clip-text text-transparent'>
+                        <span className='bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 bg-clip-text text-transparent'>
                             Habilidades
                         </span>
                         <span className='text-slate-800 dark:text-white'> blandas</span>
@@ -33,10 +33,10 @@ export default function Habilidades() {
                         return (
                             <div
                                 key={skill.id}
-                                className='group relative bg-white dark:bg-slate-800/50 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 hover:border-slate-500/50 dark:hover:border-slate-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-slate-500/10 hover:-translate-y-1'
+                                className='group relative bg-white dark:bg-slate-800/50 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 hover:border-blue-500/50 dark:hover:border-blue-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/10 hover:-translate-y-1'
                             >
                                 {/* Gradient overlay on hover */}
-                                <div className='absolute inset-0 bg-gradient-to-br from-slate-500/5 to-gray-500/5 dark:from-slate-500/10 dark:to-gray-500/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
+                                <div className='absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 dark:from-blue-500/10 dark:to-cyan-500/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
 
                                 <div className='relative z-10'>
                                     {/* Icon */}
@@ -45,7 +45,7 @@ export default function Habilidades() {
                                     </div>
 
                                     {/* Content */}
-                                    <h3 className='text-lg font-bold mb-2 text-slate-800 dark:text-white group-hover:text-slate-600 dark:group-hover:text-slate-400 transition-colors'>
+                                    <h3 className='text-lg font-bold mb-2 text-slate-800 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors'>
                                         {skill.title}
                                     </h3>
                                     <p className='text-sm text-slate-600 dark:text-slate-300 leading-relaxed'>
@@ -54,7 +54,7 @@ export default function Habilidades() {
                                 </div>
 
                                 {/* Decorative corner gradient */}
-                                <div className='absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-slate-500/10 to-gray-500/10 rounded-2xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500'></div>
+                                <div className='absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-blue-500/10 to-cyan-500/10 rounded-2xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500'></div>
                             </div>
                         );
                     })}

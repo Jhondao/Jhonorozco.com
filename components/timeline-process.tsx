@@ -8,12 +8,12 @@ export default function TimelineProcess() {
                 {/* Header */}
                 <div className='text-center mb-16'>
                     <div className='inline-block px-4 py-2 mb-4 rounded-full bg-gradient-to-r from-blue-500/10 to-blue-500/10 dark:from-blue-500/20 dark:to-blue-500/20 backdrop-blur-sm border border-blue-500/20'>
-                        <span className='text-sm font-medium bg-gradient-to-r from-blue-600 to-blue-600 dark:from-blue-400 dark:to-blue-400 bg-clip-text text-transparent'>
+                        <span className='text-sm font-medium bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 bg-clip-text text-transparent'>
                             Mi Metodología
                         </span>
                     </div>
                     <h2 className='text-4xl md:text-5xl font-bold mb-4'>
-                        <span className='bg-gradient-to-r from-blue-600 to-blue-600 dark:from-blue-400 dark:to-blue-400 bg-clip-text text-transparent'>
+                        <span className='bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 bg-clip-text text-transparent'>
                             Proceso
                         </span>
                         <span className='text-slate-800 dark:text-white'> de trabajo</span>
@@ -26,7 +26,7 @@ export default function TimelineProcess() {
                 {/* Timeline Grid */}
                 <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8 relative'>
                     {/* Connecting line (desktop only) */}
-                    <div className='hidden lg:block absolute top-1/4 left-0 w-full h-0.5 bg-gradient-to-r from-blue-500/20 via-blue-500/20 to-green-500/20 -z-0'></div>
+                    <div className='hidden lg:block absolute top-1/4 left-0 w-full h-0.5 bg-gradient-to-r from-blue-500/20 via-cyan-500/20 to-blue-500/20 -z-0'></div>
 
                     {dataProcess.map((step, index) => (
                         <div

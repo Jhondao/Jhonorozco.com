@@ -15,14 +15,14 @@ export default function Hero() {
                 {/* Badge */}
                 <div className='inline-flex items-center gap-2 px-4 py-2 mb-8 rounded-full bg-gradient-to-r from-blue-500/10 to-blue-500/10 dark:from-blue-500/20 dark:to-blue-500/20 backdrop-blur-sm border border-blue-500/20'>
                     <Sparkles className='w-4 h-4 text-blue-500' />
-                    <span className='text-sm font-medium bg-gradient-to-r from-blue-600 to-blue-600 dark:from-blue-400 dark:to-blue-400 bg-clip-text text-transparent'>
+                    <span className='text-sm font-medium bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 bg-clip-text text-transparent'>
                         Servicios Profesionales
                     </span>
                 </div>
 
                 {/* Main heading */}
                 <h1 className='text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight'>
-                    <span className='bg-gradient-to-r from-blue-600 via-blue-600 to-blue-600 dark:from-blue-400 dark:via-blue-400 dark:to-blue-400 bg-clip-text text-transparent animate-gradient'>
+                    <span className='bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 dark:from-blue-400 dark:via-cyan-300 dark:to-blue-400 bg-clip-text text-transparent animate-gradient'>
                         Transformo Ideas en
                     </span>
                     <br />
@@ -40,7 +40,7 @@ export default function Hero() {
                 <div className='flex flex-col sm:flex-row gap-4 justify-center items-center mb-16'>
                     <Link
                         href='#services'
-                        className='group px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-700 hover:to-blue-700 text-white rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 flex items-center gap-2'
+                        className='group px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 flex items-center gap-2'
                     >
                         Ver Servicios
                         <ArrowRight className='w-5 h-5 group-hover:translate-x-1 transition-transform' />
