@@ -1,9 +1,7 @@
-"use client";
-
 import React from 'react'
 import { dataProyects } from '@/data';
 import Image from 'next/image';
-import { ExternalLink, Code2 } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 
 const Proyectos = () => {
     return (
@@ -28,87 +26,67 @@ const Proyectos = () => {
                 </div>
 
                 {/* Projects Grid */}
-                <div className='grid md:grid-cols-1 gap-8 max-w-4xl mx-auto'>
+                <div className='grid sm:grid-cols-2 gap-6 max-w-4xl mx-auto'>
                     {dataProyects.map((project, index) => (
                         <div
                             key={project.id}
-                            className='group relative bg-white dark:bg-slate-800/50 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:border-blue-500/50 dark:hover:border-blue-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/10'
+                            className='group relative bg-white dark:bg-slate-800/50 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:border-blue-500/50 dark:hover:border-blue-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/10'
                             style={{ animationDelay: `${index * 100}ms` }}
                         >
-                            {/* Gradient overlay on hover */}
-                            <div className='absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 dark:from-blue-500/10 dark:to-cyan-500/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
-
-                            <div className='relative z-10 grid md:grid-cols-1 gap-8 p-8'>
-                                {/* Image */}
-                                <div className='relative overflow-hidden rounded-xl'>
-                                    <a href={project.url} target="_blank" rel="noopener noreferrer">
-                                        <Image
-                                            src={project.image}
-                                            alt={project.title}
-                                            width={250}
-                                            height={250}
-                                            className='w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110 rounded-xl'
-                                        />
-                                        {/* Overlay on hover */}
-                                        <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-xl'>
-                                            <div className='px-6 py-3 bg-white dark:bg-slate-900 text-slate-800 dark:text-white rounded-full font-semibold flex items-center gap-2 shadow-lg'>
-                                                Ver Proyecto
-                                                <ExternalLink className='w-4 h-4' />
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                {/* Content */}
-                                <div className='flex flex-col justify-center space-y-4'>
-
-                                    {/* Category */}
-                                    <span className='inline-block w-fit text-xs font-medium px-2.5 py-1 rounded-full bg-blue-500/10 text-blue-600 dark:text-blue-400'>
-                                        {project.category}
-                                    </span>
-
-                                    {/* Title */}
-                                    <h3 className='text-2xl font-bold text-slate-800 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors'>
-                                        {project.title}
-                                    </h3>
-
-                                    {/* Description */}
-                                    <p className='text-slate-600 dark:text-slate-300 leading-relaxed'>
-                                        {project.description}
-                                    </p>
-
-                                    {/* Technologies */}
-                                    <div className='space-y-2'>
-                                        <p className='text-sm font-semibold text-slate-700 dark:text-slate-300'>
-                                            Tecnologías:
-                                        </p>
-                                        <div className='flex flex-wrap gap-2'>
-                                            {project.tecnologies.map((tech, idx) => (
-                                                <span
-                                                    key={idx}
-                                                    className='px-3 py-1 text-xs font-medium bg-gradient-to-r from-blue-500/10 to-cyan-500/10 dark:from-blue-500/20 dark:to-cyan-500/20 text-blue-700 dark:text-blue-300 rounded-full border border-blue-500/20'
-                                                >
-                                                    {tech}
-                                                </span>
-                                            ))}
+                            {/* Image */}
+                            <div className='relative overflow-hidden aspect-video'>
+                                <a href={project.url} target="_blank" rel="noopener noreferrer">
+                                    <Image
+                                        src={project.image}
+                                        alt={project.title}
+                                        width={400}
+                                        height={225}
+                                        className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-110'
+                                    />
+                                    <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center'>
+                                        <div className='px-4 py-2 bg-white dark:bg-slate-900 text-slate-800 dark:text-white rounded-full text-sm font-semibold flex items-center gap-2 shadow-lg'>
+                                            Ver Proyecto
+                                            <ExternalLink className='w-3.5 h-3.5' />
                                         </div>
                                     </div>
-
-                                    {/* Link */}
-                                    <a
-                                        href={project.url}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className='inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-semibold transition-colors'
-                                    >
-                                        Ver proyecto en vivo
-                                        <ExternalLink className='w-4 h-4' />
-                                    </a>
-                                </div>
+                                </a>
                             </div>
 
-                            {/* Decorative corner gradient */}
-                            <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-500/10 to-cyan-500/10 rounded-2xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500'></div>
+                            {/* Content */}
+                            <div className='p-5 space-y-3'>
+                                <span className='inline-block w-fit text-xs font-medium px-2.5 py-1 rounded-full bg-blue-500/10 text-blue-600 dark:text-blue-400'>
+                                    {project.category}
+                                </span>
+
+                                <h3 className='text-lg font-bold text-slate-800 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors'>
+                                    {project.title}
+                                </h3>
+
+                                <p className='text-sm text-slate-600 dark:text-slate-300 leading-relaxed line-clamp-3'>
+                                    {project.description}
+                                </p>
+
+                                <div className='flex flex-wrap gap-1.5'>
+                                    {project.tecnologies.slice(0, 4).map((tech, idx) => (
+                                        <span
+                                            key={idx}
+                                            className='px-2 py-0.5 text-xs font-medium bg-blue-500/10 dark:bg-blue-500/20 text-blue-700 dark:text-blue-300 rounded-full'
+                                        >
+                                            {tech}
+                                        </span>
+                                    ))}
+                                </div>
+
+                                <a
+                                    href={project.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className='inline-flex items-center gap-1.5 text-sm text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-semibold transition-colors'
+                                >
+                                    Ver proyecto en vivo
+                                    <ExternalLink className='w-3.5 h-3.5' />
+                                </a>
+                            </div>
                         </div>
                     ))}
                 </div>

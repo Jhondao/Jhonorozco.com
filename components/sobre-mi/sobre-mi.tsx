@@ -31,7 +31,7 @@ export default function SobreMi() {
           <div className='relative z-10 space-y-6'>
 
             <p className='text-lg text-slate-700 dark:text-slate-300 leading-relaxed text-center'>
-              Soy profesional de Ingeniería de Sistemas, con más de 7 años de experiencia enfocado
+              Soy profesional de Ingeniería de Sistemas, con más de 8 años de experiencia enfocado
               en el desarrollo de software y la construcción de soluciones tecnológicas para
               empresas: desde aplicaciones web y móviles hasta integración de plataformas y
               automatización de procesos.

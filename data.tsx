@@ -193,7 +193,7 @@ export const dataSoluciones = [
         slug: "desarrollo-de-software",
         title: "Desarrollo de Software",
         icon: <Code2 />,
-        description: "Desarrollo soluciones digitales adaptadas a las necesidades de cada organización.",
+        description: "Desarrollo sitios web, aplicaciones y sistemas a la medida de cada organización.",
         problema: "A veces una herramienta genérica no se ajusta a cómo realmente trabaja tu empresa, o un sistema interno quedó obsoleto y frena la operación.",
         solucion: "Desarrollo aplicaciones web, sistemas internos y dashboards hechos a la medida de tu operación, o evoluciono lo que ya tienes.",
         alcance: "Desde una aplicación web puntual hasta un sistema interno completo con frontend, backend e integraciones.",
@@ -418,7 +418,7 @@ export const dataAboutMe = [
         id: 1,
         name: "Experiencia",
         icon: <Briefcase />,
-        description: "+7 años de experiencia",
+        description: "+8 años de experiencia",
     },
     {
         id: 2,

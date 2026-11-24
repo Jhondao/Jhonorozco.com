@@ -38,7 +38,7 @@ export default function Hero() {
 
                 {/* Tech tags */}
                 <div className='flex flex-wrap gap-2 justify-center mb-8'>
-                    {['ERP & E-commerce', 'Integración de APIs', 'Automatización', 'Desarrollo de software'].map((tag) => (
+                    {['ERP & E-commerce', 'Integración de APIs', 'Automatización', 'Desarrollo Web y de Software'].map((tag) => (
                         <span
                             key={tag}
                             className='px-3 py-1 text-xs font-medium rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700'
