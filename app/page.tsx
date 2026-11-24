@@ -10,7 +10,6 @@ import Beneficios from '@/components/beneficios';
 import Testimonials from '@/components/testimonials';
 import TimelineProcess from '@/components/timeline-process';
 import FAQ from '@/components/faq';
-import LaboratorioTeaser from '@/components/laboratorio-teaser';
 import PresentacionProfesional from '@/components/presentacion-profesional';
 
 export default function Maintenance() {
@@ -25,7 +24,6 @@ export default function Maintenance() {
       <Porfolio />
       <Testimonials />
       <FAQ />
-      <LaboratorioTeaser />
       <PresentacionProfesional />
       <Contact />
       <Footer />

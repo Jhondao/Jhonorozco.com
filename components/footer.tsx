@@ -57,12 +57,6 @@ const Footer = () => {
                                 Soluciones
                             </Link>
                             <Link
-                                href="/laboratorio"
-                                className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm"
-                            >
-                                Laboratorio
-                            </Link>
-                            <Link
                                 href="/#portfolio"
                                 className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm"
                             >

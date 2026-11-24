@@ -1,4 +1,4 @@
-import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, Phone, UserRound, UsersRound, Wrench, Shield, Zap, HeadphonesIcon, TrendingUp, Award, Clock, Lightbulb, Users, Target, MessageSquare, MessageCircle, Network, RefreshCw, ShoppingCart, FlaskConical } from "lucide-react";
+import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, Phone, UserRound, UsersRound, Wrench, Shield, Zap, HeadphonesIcon, TrendingUp, Award, Clock, Lightbulb, Users, Target, MessageSquare, MessageCircle, Network, RefreshCw, ShoppingCart } from "lucide-react";
 
 
 export const itemsNavbar = [
@@ -16,24 +16,18 @@ export const itemsNavbar = [
     },
     {
         id: 3,
-        title: "Laboratorio",
-        icon: <FlaskConical className="w-5 h-5 md:w-6 md:h-6" />,
-        link: "/laboratorio",
-    },
-    {
-        id: 4,
         title: "Portafolio",
         icon: <CodeSquare className="w-5 h-5 md:w-6 md:h-6" />,
         link: "/#portfolio",
     },
     {
-        id: 5,
+        id: 4,
         title: "Contacto",
         icon: <Mail className="w-5 h-5 md:w-6 md:h-6" />,
         link: "/#contact",
     },
     {
-        id: 6,
+        id: 5,
         title: "Sobre mi",
         icon: <UserRound className="w-5 h-5 md:w-6 md:h-6" />,
         link: "/sobre-mi",
