@@ -31,26 +31,25 @@ export default function SobreMi() {
           <div className='relative z-10 space-y-6'>
 
             <p className='text-lg text-slate-700 dark:text-slate-300 leading-relaxed text-center'>
-              Soy un desarrollador Full Stack / Frontend con más de 7 años de experiencia en el
-              diseño y desarrollo de aplicaciones web y móviles modernas. Mi enfoque se centra en
-              crear interfaces de usuario intuitivas, accesibles y de alto rendimiento, utilizando
-              las últimas tecnologías y mejores prácticas del desarrollo web.
+              Soy profesional de Ingeniería de Sistemas, con más de 7 años de experiencia enfocado
+              en el desarrollo de software y la construcción de soluciones tecnológicas para
+              empresas: desde aplicaciones web y móviles hasta integración de plataformas y
+              automatización de procesos.
             </p>
 
             <p className='text-lg text-slate-700 dark:text-slate-300 leading-relaxed text-center'>
-              A lo largo de mi carrera, he trabajado en proyectos diversos que van desde
-              sitios web corporativos hasta aplicaciones web y móviles complejas y escalables. Me
-              especializo en React, Next.js, React Native y el ecosistema de JavaScript moderno,
-              además de integración de APIs REST y soluciones sobre Drupal, siempre manteniendo
-              un equilibrio entre funcionalidad, diseño y experiencia de usuario.
+              A lo largo de mi carrera he trabajado en proyectos diversos, desde sitios web
+              corporativos hasta integración de APIs REST, automatización de flujos y aplicaciones
+              móviles. Me especializo en React, Next.js, React Native y el ecosistema de JavaScript
+              moderno, con experiencia adicional en Drupal, WordPress y herramientas de
+              automatización como n8n.
             </p>
 
             <p className='text-lg text-slate-700 dark:text-slate-300 leading-relaxed text-center'>
-              Mi metodología de trabajo incluye la optimización constante del rendimiento,
-              la implementación de diseño responsive, y la aplicación de principios de
-              accesibilidad web (WCAG). Además, me mantengo en constante aprendizaje de
-              nuevas tecnologías y tendencias para ofrecer soluciones técnicas innovadoras
-              y eficientes.
+              Mi metodología de trabajo incluye el análisis de las necesidades reales de cada
+              proyecto, la optimización constante del rendimiento y la aplicación de buenas
+              prácticas de accesibilidad web (WCAG), siempre buscando soluciones funcionales y
+              sostenibles en el tiempo.
             </p>
 
             {/* CTA Button - Centered */}

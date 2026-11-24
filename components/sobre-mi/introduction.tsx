@@ -35,13 +35,13 @@ export default function Introduction() {
                                 </span>
                             </h1>
                             <h2 className='text-2xl md:text-3xl text-slate-700 dark:text-slate-300 font-semibold'>
-                                Full Stack / Frontend Developer
+                                Ingeniería de Sistemas · Desarrollo & Integración
                             </h2>
                         </div>
 
                         {/* Description */}
                         <p className='text-lg text-slate-600 dark:text-slate-400 leading-relaxed max-w-xl'>
-                            Especializado en crear experiencias web modernas, funcionales y visualmente impactantes que impulsan el éxito de tu negocio.
+                            Conecto plataformas, automatizo procesos y desarrollo software que ayuda a las empresas a operar mejor.
                         </p>
 
                         {/* CTA Buttons */}

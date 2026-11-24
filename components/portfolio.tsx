@@ -60,6 +60,9 @@ const Porfolio = () => {
 
                             {/* Content */}
                             <div className='p-6 text-center'>
+                                <span className='inline-block text-xs font-medium px-2.5 py-1 mb-2 rounded-full bg-blue-500/10 text-blue-600 dark:text-blue-400'>
+                                    {data.category}
+                                </span>
                                 <h3 className='text-lg font-bold text-slate-800 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2'>
                                     {data.title}
                                 </h3>

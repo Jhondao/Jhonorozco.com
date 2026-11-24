@@ -20,7 +20,10 @@ const ContactForm = () => {
 
     const formSchema = z.object({
         username: z.string().min(2).max(50),
+        company: z.string().max(100).optional(),
         email: z.string().email(),
+        projectType: z.string().min(1, "Selecciona un tipo de proyecto"),
+        budget: z.string().max(100).optional(),
         message: z.string()
     })
 
@@ -28,7 +31,10 @@ const ContactForm = () => {
         resolver: zodResolver(formSchema),
         defaultValues: {
             username: "",
+            company: "",
             email: "",
+            projectType: "",
+            budget: "",
             message: ""
         }
     })
@@ -47,9 +53,12 @@ const ContactForm = () => {
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
                     access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY,
-                    subject: "Nuevo mensaje - Portafolio JhonOrozco.com",
+                    subject: "Nuevo mensaje - JhonOrozco.com",
                     name: values.username,
+                    company: values.company || "No especificada",
                     email: values.email,
+                    project_type: values.projectType,
+                    budget: values.budget || "No especificado",
                     message: values.message,
                 })
             })
@@ -101,12 +110,66 @@ const ContactForm = () => {
                     />
                     <FormField
                         control={form.control}
+                        name="company"
+                        render={({ field }) => (
+                            <FormItem>
+                                <FormControl>
+                                    <Input
+                                        placeholder="Empresa (opcional)"
+                                        {...field}
+                                        className="dark:bg-slate-800"
+                                    />
+                                </FormControl>
+                                <FormMessage />
+                            </FormItem>
+                        )}
+                    />
+                    <FormField
+                        control={form.control}
                         name="email"
                         render={({ field }) => (
                             <FormItem>
                                 <FormControl>
                                     <Input
                                         placeholder="Correo"
+                                        {...field}
+                                        className="dark:bg-slate-800"
+                                    />
+                                </FormControl>
+                                <FormMessage />
+                            </FormItem>
+                        )}
+                    />
+                    <FormField
+                        control={form.control}
+                        name="projectType"
+                        render={({ field }) => (
+                            <FormItem>
+                                <FormControl>
+                                    <select
+                                        {...field}
+                                        className="flex h-10 w-full rounded-md border border-input bg-background dark:bg-slate-800 px-3 py-2 text-sm text-slate-600 dark:text-slate-300 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                                    >
+                                        <option value="" disabled>Tipo de proyecto</option>
+                                        <option value="Integración de sistemas">Integración de sistemas</option>
+                                        <option value="Automatización">Automatización</option>
+                                        <option value="Desarrollo de software">Desarrollo de software</option>
+                                        <option value="E-commerce">E-commerce</option>
+                                        <option value="Otro">Otro</option>
+                                    </select>
+                                </FormControl>
+                                <FormMessage />
+                            </FormItem>
+                        )}
+                    />
+                    <FormField
+                        control={form.control}
+                        name="budget"
+                        render={({ field }) => (
+                            <FormItem>
+                                <FormControl>
+                                    <Input
+                                        placeholder="Presupuesto aproximado (opcional)"
                                         {...field}
                                         className="dark:bg-slate-800"
                                     />

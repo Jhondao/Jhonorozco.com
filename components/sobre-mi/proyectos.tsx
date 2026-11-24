@@ -62,6 +62,11 @@ const Proyectos = () => {
                                 {/* Content */}
                                 <div className='flex flex-col justify-center space-y-4'>
 
+                                    {/* Category */}
+                                    <span className='inline-block w-fit text-xs font-medium px-2.5 py-1 rounded-full bg-blue-500/10 text-blue-600 dark:text-blue-400'>
+                                        {project.category}
+                                    </span>
+
                                     {/* Title */}
                                     <h3 className='text-2xl font-bold text-slate-800 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors'>
                                         {project.title}

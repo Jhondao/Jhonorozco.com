@@ -14,7 +14,7 @@ import Habilidades from '@/components/sobre-mi/habilidades';
 export const metadata: Metadata = {
     title: 'Sobre Mí',
     description:
-        'Conoce mi trayectoria como desarrollador Full Stack / Frontend: experiencia laboral, stack técnico, educación y proyectos personales construidos con React, Next.js y TypeScript.',
+        'Conoce mi trayectoria como profesional de Ingeniería de Sistemas: experiencia laboral en integración de plataformas y desarrollo de software, stack técnico, educación y proyectos personales.',
     alternates: {
         canonical: '/sobre-mi',
     },

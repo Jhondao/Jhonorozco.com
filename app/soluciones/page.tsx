@@ -14,9 +14,29 @@ export const metadata: Metadata = {
     },
 };
 
+const servicesJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Jhon Dayron Orozco',
+    url: 'https://jhonorozco.com',
+    makesOffer: dataSoluciones.map((solucion) => ({
+        '@type': 'Offer',
+        itemOffered: {
+            '@type': 'Service',
+            name: solucion.title,
+            description: solucion.description,
+            url: `https://jhonorozco.com/soluciones#${solucion.slug}`,
+        },
+    })),
+};
+
 export default function SolucionesPage() {
     return (
         <main className="pb-40">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesJsonLd) }}
+            />
             <Navbar />
             <section className="pt-32 pb-16 px-6">
                 <div className="max-w-4xl mx-auto text-center">

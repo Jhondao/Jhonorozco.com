@@ -283,6 +283,7 @@ export const dataPortfolio = [
         image: "/img-theemotionslab.png",
         urlGithub: "#!",
         urlDemo: "https://theemotionslabmalta.com/",
+        category: "Desarrollo Web",
     },
     {
         id: 2,
@@ -290,6 +291,7 @@ export const dataPortfolio = [
         image: "/image-fonjaveriana.png",
         urlGithub: "#!",
         urlDemo: "https://fonjaveriana.javerianacali.edu.co/",
+        category: "Desarrollo Web",
     },
     {
         id: 3,
@@ -297,6 +299,7 @@ export const dataPortfolio = [
         image: "/img-gohcleaning.png",
         urlGithub: "#!",
         urlDemo: "https://gohcleaning.com/",
+        category: "Desarrollo Web",
     },
     {
         id: 4,
@@ -304,6 +307,7 @@ export const dataPortfolio = [
         image: "/img-keelcur.png",
         urlGithub: "#!",
         urlDemo: "https://keelcur.com/",
+        category: "Desarrollo Web",
     },
     {
         id: 5,
@@ -311,6 +315,7 @@ export const dataPortfolio = [
         image: "/img-teamupintegral.png",
         urlGithub: "#!",
         urlDemo: "https://teamupintegral.com/",
+        category: "Desarrollo Web",
     },
 
 ];
@@ -669,7 +674,8 @@ export const dataProyects = [
             "Aplicación móvil diseñada para ayudar a los transportadores de carga a gestionar sus gastos de manera eficiente. Permite registrar y categorizar gastos, generar informes financieros y optimizar la administración del negocio de transporte.",
         image: "/img-proyecto-enruta.png",
         tecnologies: ["NextJs", "Supabase", "Tailwind CSS", "Typescript", "Vercel", "Figma", "Shadcn UI"],
-        url: "https://en-ruta-app-gamma.vercel.app/"
+        url: "https://en-ruta-app-gamma.vercel.app/",
+        category: "Aplicaciones y Soluciones Tecnológicas",
     },
     {
         id: 2,
@@ -678,7 +684,8 @@ export const dataProyects = [
             "Plataforma para coordinar albergues, centros de acopio y necesidades comunitarias en cualquier lugar de Colombia, creada como respuesta al terremoto de agosto de 2026 en Cali. Cualquiera puede reportar o pedir ayuda sin crear cuenta; la propia comunidad confirma la información y un sistema de reputación prioriza lo más confiable en un mapa en tiempo real.",
         image: "/img-proyecto-aquiayudamosve.png",
         tecnologies: ["React", "TypeScript", "Node.js", "Express", "Prisma", "MySQL", "Tailwind CSS"],
-        url: "https://aquiayudamosve.co/"
+        url: "https://aquiayudamosve.co/",
+        category: "Plataformas Digitales",
     },
 ];
 
