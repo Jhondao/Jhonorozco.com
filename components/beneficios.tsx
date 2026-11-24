@@ -1,6 +1,5 @@
 import React from 'react';
 import { dataBeneficios } from '@/data';
-import { cn } from '@/lib/utils';
 
 
 export default function Beneficios() {
@@ -25,47 +24,35 @@ export default function Beneficios() {
                     </p>
                 </div>
 
-                {/* Benefits Bento Grid */}
-                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6'>
-                    {dataBeneficios.map((beneficio, index) => {
+                {/* Benefits Grid */}
+                <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
+                    {dataBeneficios.map((beneficio) => {
                         const IconComponent = beneficio.icon;
-                        const isFeatured = index === 0;
-                        const isWide = index === 1 || index === 4 || index === 5;
                         return (
                             <div
                                 key={beneficio.id}
-                                className={cn(
-                                    'group relative bg-white dark:bg-slate-800/50 rounded-2xl border border-slate-200 dark:border-slate-700 hover:border-blue-500/50 dark:hover:border-blue-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/10 hover:-translate-y-1',
-                                    isFeatured ? 'p-10 lg:col-span-2 lg:row-span-2 flex flex-col justify-center' : 'p-8',
-                                    isWide && 'lg:col-span-2'
-                                )}
+                                className='group relative bg-white dark:bg-slate-800/50 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 hover:border-blue-500/50 dark:hover:border-blue-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/10 hover:-translate-y-1'
                             >
                                 {/* Gradient overlay on hover */}
-                                <div className='absolute inset-0 bg-gradient-to-br from-blue-500/5 to-blue-500/5 dark:from-blue-500/10 dark:to-blue-500/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
+                                <div className='absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 dark:from-blue-500/10 dark:to-cyan-500/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
 
                                 <div className='relative z-10'>
                                     {/* Icon */}
-                                    <div className={cn(
-                                        `inline-flex rounded-xl bg-gradient-to-br ${beneficio.color} mb-4 group-hover:scale-110 transition-transform duration-300`,
-                                        isFeatured ? 'p-4' : 'p-3'
-                                    )}>
-                                        <IconComponent className={isFeatured ? 'w-8 h-8 text-white' : 'w-6 h-6 text-white'} />
+                                    <div className={`inline-flex p-3 rounded-xl bg-gradient-to-br ${beneficio.color} mb-4 group-hover:scale-110 transition-transform duration-300`}>
+                                        <IconComponent className='w-6 h-6 text-white' />
                                     </div>
 
                                     {/* Content */}
-                                    <h3 className={cn(
-                                        'font-bold mb-3 text-slate-800 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors',
-                                        isFeatured ? 'text-2xl md:text-3xl' : 'text-xl'
-                                    )}>
+                                    <h3 className='text-lg font-bold mb-2 text-slate-800 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors'>
                                         {beneficio.title}
                                     </h3>
-                                    <p className={cn(
-                                        'text-slate-600 dark:text-slate-300 leading-relaxed',
-                                        isFeatured && 'text-lg max-w-md'
-                                    )}>
+                                    <p className='text-sm text-slate-600 dark:text-slate-300 leading-relaxed'>
                                         {beneficio.description}
                                     </p>
                                 </div>
+
+                                {/* Decorative corner gradient */}
+                                <div className='absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-blue-500/10 to-cyan-500/10 rounded-2xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500'></div>
                             </div>
                         );
                     })}
