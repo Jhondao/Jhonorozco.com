@@ -369,8 +369,8 @@ export const dataProcess = [
     },
     {
         id: 2,
-        title: "Diseño y Estrategia",
-        description: "Creo una experiencia visual única y funcional alineada con tu identidad de marca.",
+        title: "Diseño y Arquitectura",
+        description: "Diseño la arquitectura técnica de la solución —integración, automatización o desarrollo— antes de escribir una línea de código.",
         icon: <Brush />,
         color: "from-blue-600 to-cyan-500",
         delay: 200
@@ -411,11 +411,16 @@ export const dataFaq = [
     },
     {
         id: 4,
-        question: "¿Ofreces mantenimiento después del lanzamiento?",
-        answer: "¡Claro que sí! Ofrezco planes de mantenimiento mensual que incluyen actualizaciones de seguridad, optimización de velocidad y ajustes menores de contenido."
+        question: "¿Cómo manejas la seguridad y confidencialidad de la información?",
+        answer: "Estoy cursando la Especialización en Seguridad Informática, enfocada en identificación y remediación de vulnerabilidades. En cada integración limito los accesos a lo estrictamente necesario y puedo firmar acuerdos de confidencialidad (NDA) si tu empresa lo requiere."
     },
     {
         id: 5,
+        question: "¿Ofreces soporte después del lanzamiento?",
+        answer: "¡Claro que sí! Ofrezco planes de soporte mensual que incluyen monitoreo de integraciones y automatizaciones, actualizaciones de seguridad, optimización de rendimiento y ajustes menores según necesites."
+    },
+    {
+        id: 6,
         question: "¿Cómo es el proceso de pago?",
         answer: "Generalmente manejo un anticipo del 50% para iniciar el proyecto y el 50% restante al finalizar y antes del despliegue final. Acepto diversos métodos de pago locales e internacionales."
     }
