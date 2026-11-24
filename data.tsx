@@ -1,4 +1,4 @@
-import { AlertTriangle, BookText, Briefcase, Brush, Code2, Home, Inbox, Layers, Mail, Phone, Sparkles, UserRound, UsersRound, Wrench, Shield, Zap, HeadphonesIcon, TrendingUp, Award, Clock, Lightbulb, Users, Target, MessageSquare, MessageCircle, Network, RefreshCw, ShoppingCart } from "lucide-react";
+import { AlertTriangle, BookText, Briefcase, Brush, Code2, Home, Inbox, Layers, Mail, Phone, Sparkles, UserRound, UsersRound, Wrench, Zap, Clock, Lightbulb, Users, Target, MessageSquare, MessageCircle, Network, RefreshCw, ShoppingCart } from "lucide-react";
 
 
 export const itemsNavbar = [
@@ -38,53 +38,6 @@ export const itemsNavbar = [
         icon: <UserRound className="w-5 h-5 md:w-6 md:h-6" />,
         link: "/sobre-mi",
     },
-];
-
-export const dataBeneficios = [
-    {
-        id: 1,
-        title: "Calidad Garantizada",
-        description: "Código limpio, escalable y siguiendo las mejores prácticas del desarrollo moderno",
-        icon: Shield,
-        color: "from-blue-500 to-blue-600"
-
-    },
-    {
-        id: 2,
-        title: "Desarrollo Rápido",
-        description: "Entregas ágiles sin comprometer la calidad del producto final",
-        icon: Zap,
-        color: "from-blue-500 to-blue-600"
-    },
-    {
-        id: 3,
-        title: "Soporte 24/7",
-        description: "Asistencia continua para resolver cualquier duda o inconveniente",
-        icon: HeadphonesIcon,
-        color: "from-blue-500 to-blue-600"
-
-    },
-    {
-        id: 4,
-        title: "SEO Optimizado",
-        description: "Tu sitio web posicionado en los primeros resultados de búsqueda",
-        icon: TrendingUp,
-        color: "from-blue-500 to-blue-600"
-    },
-    {
-        id: 5,
-        title: "Diseño Premium",
-        description: "Interfaces modernas que destacan y convierten visitantes en clientes",
-        icon: Award,
-        color: "from-blue-500 to-blue-600"
-    },
-    {
-        id: 6,
-        title: "Actualizaciones",
-        description: "Mantenimiento continuo para mantener tu sitio siempre actualizado",
-        icon: Clock,
-        color: "from-blue-500 to-blue-600"
-    }
 ];
 
 export const dataSlider = [
