@@ -397,20 +397,25 @@ export const dataFaq = [
     {
         id: 1,
         question: "¿Qué servicios ofreces exactamente?",
-        answer: "Me especializo en desarrollo web full-stack (específicamente React/Next.js), diseño de interfaces (UI/UX) y soluciones de e-commerce personalizadas. También brindo soporte en SEO y mantenimiento técnico."
+        answer: "Integro sistemas (ERP, e-commerce, APIs), automatizo procesos operativos y desarrollo software a medida, además de soluciones de e-commerce. También brindo soporte en SEO y mantenimiento técnico."
     },
     {
         id: 2,
-        question: "¿Cuánto tiempo toma entregar un sitio web?",
-        answer: "El tiempo varía según la complejidad. Una landing page puede estar lista en 1 semana, mientras que una plataforma personalizada o e-commerce puede tomar de 3 a 6 semanas."
+        question: "¿Necesito cambiar mi sistema actual para integrarlo?",
+        answer: "No necesariamente. La mayoría de integraciones se construyen sobre las APIs que ya expone tu sistema actual, sin reemplazarlo. Evaluamos juntos qué tan viable es tu caso en una primera conversación."
     },
     {
         id: 3,
+        question: "¿Cuánto tiempo toma un proyecto?",
+        answer: "Varía según la complejidad. Una automatización o integración puntual puede tomar de 2 a 4 semanas, mientras que una plataforma personalizada o e-commerce puede tomar de 3 a 6 semanas."
+    },
+    {
+        id: 4,
         question: "¿Ofreces mantenimiento después del lanzamiento?",
         answer: "¡Claro que sí! Ofrezco planes de mantenimiento mensual que incluyen actualizaciones de seguridad, optimización de velocidad y ajustes menores de contenido."
     },
     {
-        id: 4,
+        id: 5,
         question: "¿Cómo es el proceso de pago?",
         answer: "Generalmente manejo un anticipo del 50% para iniciar el proyecto y el 50% restante al finalizar y antes del despliegue final. Acepto diversos métodos de pago locales e internacionales."
     }

@@ -32,9 +32,9 @@ export default function SolucionDetalle({
                     <div className="inline-flex p-4 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-600 text-white [&_svg]:w-7 [&_svg]:h-7">
                         {icon}
                     </div>
-                    <h3 className="text-2xl font-bold text-slate-800 dark:text-white">
+                    <h2 className="text-2xl font-bold text-slate-800 dark:text-white">
                         {title}
-                    </h3>
+                    </h2>
                     <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
                         {description}
                     </p>
