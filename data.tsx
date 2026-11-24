@@ -1,4 +1,4 @@
-import { BookText, Briefcase, Brush, Code2, Home, Inbox, Layers, Mail, Phone, Sparkles, UserRound, UsersRound, Wrench, Shield, Zap, HeadphonesIcon, TrendingUp, Award, Clock, Lightbulb, Users, Target, MessageSquare, MessageCircle, Network, RefreshCw, ShoppingCart } from "lucide-react";
+import { AlertTriangle, BookText, Briefcase, Brush, Code2, Home, Inbox, Layers, Mail, Phone, Sparkles, UserRound, UsersRound, Wrench, Shield, Zap, HeadphonesIcon, TrendingUp, Award, Clock, Lightbulb, Users, Target, MessageSquare, MessageCircle, Network, RefreshCw, ShoppingCart } from "lucide-react";
 
 
 export const itemsNavbar = [
@@ -10,24 +10,30 @@ export const itemsNavbar = [
     },
     {
         id: 2,
-        title: "Soluciones",
-        icon: <Layers className="w-5 h-5 md:w-6 md:h-6" />,
-        link: "/soluciones",
+        title: "Problemas",
+        icon: <AlertTriangle className="w-5 h-5 md:w-6 md:h-6" />,
+        link: "/#problemas",
     },
     {
         id: 3,
+        title: "Soluciones",
+        icon: <Layers className="w-5 h-5 md:w-6 md:h-6" />,
+        link: "/#services",
+    },
+    {
+        id: 4,
         title: "Portafolio",
         icon: <Briefcase className="w-5 h-5 md:w-6 md:h-6" />,
         link: "/#portfolio",
     },
     {
-        id: 4,
+        id: 5,
         title: "Contacto",
         icon: <Mail className="w-5 h-5 md:w-6 md:h-6" />,
         link: "/#contact",
     },
     {
-        id: 5,
+        id: 6,
         title: "Sobre mi",
         icon: <UserRound className="w-5 h-5 md:w-6 md:h-6" />,
         link: "/sobre-mi",
