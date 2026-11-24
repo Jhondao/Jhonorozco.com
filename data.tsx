@@ -1,4 +1,4 @@
-import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, Phone, UserRound, UsersRound, Wrench, Shield, Zap, HeadphonesIcon, TrendingUp, Award, Clock, Lightbulb, Users, Target, MessageSquare, MessageCircle, Network, RefreshCw, ShoppingCart } from "lucide-react";
+import { BookText, Briefcase, Brush, Code2, Home, Inbox, Layers, Mail, Phone, Sparkles, UserRound, UsersRound, Wrench, Shield, Zap, HeadphonesIcon, TrendingUp, Award, Clock, Lightbulb, Users, Target, MessageSquare, MessageCircle, Network, RefreshCw, ShoppingCart } from "lucide-react";
 
 
 export const itemsNavbar = [
@@ -11,13 +11,13 @@ export const itemsNavbar = [
     {
         id: 2,
         title: "Soluciones",
-        icon: <BookText className="w-5 h-5 md:w-6 md:h-6" />,
+        icon: <Layers className="w-5 h-5 md:w-6 md:h-6" />,
         link: "/soluciones",
     },
     {
         id: 3,
         title: "Portafolio",
-        icon: <CodeSquare className="w-5 h-5 md:w-6 md:h-6" />,
+        icon: <Briefcase className="w-5 h-5 md:w-6 md:h-6" />,
         link: "/#portfolio",
     },
     {
@@ -492,7 +492,7 @@ export const itemsNavbarAboutMe = [
     {
         id: 4,
         title: "Habilidades",
-        icon: <BellPlus className="w-5 h-5 md:w-6 md:h-6" />,
+        icon: <Sparkles className="w-5 h-5 md:w-6 md:h-6" />,
         link: "#soft-skills",
     },
     {
