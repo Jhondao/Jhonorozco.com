@@ -1,6 +1,7 @@
 import React from 'react'
-import { dataServices } from '@/data'
-import { Check } from 'lucide-react'
+import Link from 'next/link'
+import { dataSoluciones } from '@/data'
+import { ArrowRight } from 'lucide-react'
 
 export default function Services() {
     return (
@@ -15,21 +16,22 @@ export default function Services() {
                     </div>
                     <h2 className='text-4xl md:text-5xl font-bold mb-4'>
                         <span className='bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 bg-clip-text text-transparent'>
-                            Servicios
+                            Soluciones
                         </span>
-                        <span className='text-slate-800 dark:text-white'> Profesionales</span>
+                        <span className='text-slate-800 dark:text-white'> Tecnológicas</span>
                     </h2>
                     <p className='text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto'>
-                        Impulso tu presencia online con soluciones digitales a medida
+                        Conecto tus plataformas, automatizo procesos y desarrollo el software que tu operación necesita
                     </p>
                 </div>
 
-                {/* Services Grid */}
-                <div className='grid md:grid-cols-3 gap-8'>
-                    {dataServices.map((service, index) => (
-                        <div
-                            key={service.id}
-                            className='group relative bg-white dark:bg-slate-800/50 rounded-2xl p-8 border border-slate-200 dark:border-slate-700 hover:border-blue-500/50 dark:hover:border-blue-500/50 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/10 hover:-translate-y-2'
+                {/* Solutions Grid (summary) */}
+                <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-6'>
+                    {dataSoluciones.map((solucion, index) => (
+                        <Link
+                            key={solucion.id}
+                            href={`/soluciones#${solucion.slug}`}
+                            className='group relative bg-white dark:bg-slate-800/50 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 hover:border-blue-500/50 dark:hover:border-blue-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/10 hover:-translate-y-1'
                             style={{ animationDelay: `${index * 100}ms` }}
                         >
                             {/* Gradient overlay on hover */}
@@ -37,39 +39,42 @@ export default function Services() {
 
                             <div className='relative z-10'>
                                 {/* Icon with gradient background */}
-                                <div className='inline-flex p-4 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-600 mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg'>
+                                <div className='inline-flex p-3 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-600 mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg [&_svg]:w-5 [&_svg]:h-5'>
                                     <div className='text-white'>
-                                        {service.icon}
+                                        {solucion.icon}
                                     </div>
                                 </div>
 
                                 {/* Title */}
-                                <h3 className='text-xl font-bold mb-6 text-slate-800 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors min-h-[3.5rem]'>
-                                    {service.title}
+                                <h3 className='text-lg font-bold mb-2 text-slate-800 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors min-h-[3.5rem]'>
+                                    {solucion.title}
                                 </h3>
 
-                                {/* Features list */}
-                                <ul className='space-y-3'>
-                                    {service.features.map((feature, idx) => (
-                                        <li
-                                            key={idx}
-                                            className='flex gap-3 items-start text-slate-600 dark:text-slate-300 group-hover:text-slate-700 dark:group-hover:text-slate-200 transition-colors'
-                                        >
-                                            <div className='flex-shrink-0 mt-1'>
-                                                <div className='p-1 rounded-full bg-gradient-to-br from-blue-500 to-cyan-600'>
-                                                    <Check size={14} className='text-white' />
-                                                </div>
-                                            </div>
-                                            <span className='text-sm leading-relaxed'>{feature.name}</span>
-                                        </li>
-                                    ))}
-                                </ul>
+                                <p className='text-sm text-slate-600 dark:text-slate-300 leading-relaxed mb-4'>
+                                    {solucion.description}
+                                </p>
+
+                                <span className='inline-flex items-center gap-1 text-sm font-semibold text-blue-600 dark:text-blue-400'>
+                                    Ver más
+                                    <ArrowRight className='w-4 h-4 group-hover:translate-x-1 transition-transform' />
+                                </span>
                             </div>
 
                             {/* Decorative corner gradient */}
                             <div className='absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-500/10 to-cyan-500/10 rounded-2xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500'></div>
-                        </div>
+                        </Link>
                     ))}
+                </div>
+
+                {/* CTA to full page */}
+                <div className='mt-10 text-center'>
+                    <Link
+                        href='/soluciones'
+                        className='inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105'
+                    >
+                        Explorar soluciones
+                        <ArrowRight className='w-5 h-5' />
+                    </Link>
                 </div>
             </div>
         </section>

@@ -1,4 +1,4 @@
-import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench, Shield, Zap, HeadphonesIcon, TrendingUp, Award, Clock, Lightbulb, Users, Target, MessageSquare, MessageCircle } from "lucide-react";
+import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, Phone, UserRound, UsersRound, Wrench, Shield, Zap, HeadphonesIcon, TrendingUp, Award, Clock, Lightbulb, Users, Target, MessageSquare, MessageCircle, Network, RefreshCw, ShoppingCart, FlaskConical } from "lucide-react";
 
 
 export const itemsNavbar = [
@@ -6,28 +6,34 @@ export const itemsNavbar = [
         id: 1,
         title: "Inicio",
         icon: <Home className="w-5 h-5 md:w-6 md:h-6" />,
-        link: "#home",
+        link: "/",
     },
     {
         id: 2,
-        title: "Servicios",
+        title: "Soluciones",
         icon: <BookText className="w-5 h-5 md:w-6 md:h-6" />,
-        link: "#services",
+        link: "/soluciones",
     },
     {
         id: 3,
-        title: "Portafolio",
-        icon: <CodeSquare className="w-5 h-5 md:w-6 md:h-6" />,
-        link: "#portfolio",
+        title: "Laboratorio",
+        icon: <FlaskConical className="w-5 h-5 md:w-6 md:h-6" />,
+        link: "/laboratorio",
     },
     {
         id: 4,
-        title: "Contacto",
-        icon: <Mail className="w-5 h-5 md:w-6 md:h-6" />,
-        link: "#contact",
+        title: "Portafolio",
+        icon: <CodeSquare className="w-5 h-5 md:w-6 md:h-6" />,
+        link: "/#portfolio",
     },
     {
         id: 5,
+        title: "Contacto",
+        icon: <Mail className="w-5 h-5 md:w-6 md:h-6" />,
+        link: "/#contact",
+    },
+    {
+        id: 6,
         title: "Sobre mi",
         icon: <UserRound className="w-5 h-5 md:w-6 md:h-6" />,
         link: "/sobre-mi",
@@ -191,92 +197,83 @@ export const dataExperience = [
     },
 ];
 
-export const dataServices = [
+export const dataSoluciones = [
     {
         id: 1,
-        title: "Soluciones Web personalizados",
-        icon: <PanelsTopLeft />,
+        slug: "integracion-de-sistemas",
+        title: "Integración de Sistemas",
+        icon: <Network />,
+        description: "Conecto plataformas empresariales para facilitar el intercambio de información y reducir procesos manuales.",
+        problema: "Muchas empresas usan varias plataformas (ERP, e-commerce, CRM) que no se comunican entre sí: la información se duplica, hay que digitarla manualmente de un sistema a otro y los errores de sincronización generan retrabajo.",
+        solucion: "Diseño e implemento integraciones y APIs que conectan tus sistemas para que la información fluya entre ellos, con registro de transacciones y manejo de errores.",
+        alcance: "Desde integraciones puntuales entre dos plataformas hasta middleware que centraliza la comunicación entre varios sistemas.",
+        beneficio: "Menos trabajo manual, menos errores de digitación y mayor trazabilidad de lo que pasa entre tus plataformas.",
         features: [
-            {
-                name: "Diseño web personalizado",
-            },
-            {
-                name: "Desarrollo de sitios web personalizados",
-            },
-            {
-                name: "Diseño y desarrollo responsive",
-            },
-            {
-                name: "Optimización SEO",
-            },
-            {
-                name: "Desarrollo de aplicaciones web",
-            },
-            {
-                name: "Gestión de contenido",
-            },
-            {
-                name: "Capacitación para gestión del contenido",
-            },
-            {
-                name: "Mantenimiento y soporte continuo",
-            },
+            { name: "Integración ERP y e-commerce" },
+            { name: "Desarrollo e integración de APIs REST" },
+            { name: "Middleware" },
+            { name: "Sincronización de información" },
+            { name: "Registro y monitoreo de transacciones" },
+            { name: "Gestión de errores y reintentos" },
         ],
     },
     {
         id: 2,
-        title: "Implementación de CMS WordPress / Drupal",
-        icon: <BellPlus />,
+        slug: "automatizacion-de-procesos",
+        title: "Automatización de Procesos",
+        icon: <RefreshCw />,
+        description: "Diseño flujos tecnológicos que permiten automatizar tareas repetitivas y optimizar procesos operativos.",
+        problema: "Tareas repetitivas (generar reportes, enviar notificaciones, mover información entre herramientas) consumen tiempo de tu equipo que podría dedicarse a trabajo de mayor valor.",
+        solucion: "Diseño flujos de automatización que conectan tus aplicaciones y ejecutan esas tareas por ti, usando herramientas como n8n y APIs de los servicios que ya usas.",
+        alcance: "Desde una automatización simple hasta flujos que conectan varias herramientas y procesan información entre ellas.",
+        beneficio: "Tu equipo deja de hacer tareas repetitivas a mano y tiene más tiempo para lo que realmente importa.",
         features: [
-            {
-                name: "Instalación y configuración del CMS",
-            },
-            {
-                name: "Desarrollo y personalización de temas",
-            },
-            {
-                name: "Optimización SEO para motores de búsqueda",
-            },
-            {
-                name: "Migración de contenido desde otras plataformas",
-            },
-            {
-                name: "Capacitación para gestión del contenido",
-            },
-            {
-                name: "Soporte técnico y mantenimiento continuo",
-            }
+            { name: "Automatización de flujos" },
+            { name: "Integración de aplicaciones" },
+            { name: "Notificaciones automáticas" },
+            { name: "Procesamiento de información" },
+            { name: "Automatizaciones con n8n y servicios API" },
         ],
     },
     {
         id: 3,
-        title: "Soluciones E-commerce",
-        icon: <Brush />,
+        slug: "desarrollo-de-software",
+        title: "Desarrollo de Software",
+        icon: <Code2 />,
+        description: "Desarrollo soluciones digitales adaptadas a las necesidades de cada organización.",
+        problema: "A veces una herramienta genérica no se ajusta a cómo realmente trabaja tu empresa, o un sistema interno quedó obsoleto y frena la operación.",
+        solucion: "Desarrollo aplicaciones web, sistemas internos y dashboards hechos a la medida de tu operación, o evoluciono lo que ya tienes.",
+        alcance: "Desde una aplicación web puntual hasta un sistema interno completo con frontend, backend e integraciones.",
+        beneficio: "Una herramienta que se ajusta a tu proceso real, no al revés.",
         features: [
-            {
-                name: "Desarrollo de tiendas online a medida",
-            },
-            {
-                name: "Diseño adaptable y optimizado para móviles",
-            },
-            {
-                name: "Integración de pasarelas de pago seguras",
-            },
-            {
-                name: "Optimización SEO para e-commerce",
-            },
-            {
-                name: "Gestión eficiente de inventario y productos",
-            },
-            {
-                name: "Automatización de envíos y logística",
-            },
-            {
-                name: "Soporte y mantenimiento continuo",
-            },
+            { name: "Aplicaciones web" },
+            { name: "Sistemas internos" },
+            { name: "Dashboards" },
+            { name: "Desarrollo frontend y backend" },
+            { name: "Integración de servicios" },
+            { name: "Evolución de aplicaciones existentes" },
+        ],
+    },
+    {
+        id: 4,
+        slug: "ecommerce-y-plataformas-digitales",
+        title: "E-commerce y Plataformas Digitales",
+        icon: <ShoppingCart />,
+        description: "Implemento, optimizo y conecto plataformas de comercio electrónico con los procesos empresariales.",
+        problema: "Tu tienda en línea no está conectada con el resto de tu operación (inventario, facturación, logística), o la plataforma actual ya no da abasto.",
+        solucion: "Implemento, optimizo y conecto tiendas virtuales con tus procesos empresariales para que el e-commerce deje de ser una isla.",
+        alcance: "Desde una tienda nueva en WooCommerce/WordPress hasta la integración de tu e-commerce actual con sistemas externos.",
+        beneficio: "Una tienda que funciona como parte de tu operación, no como un proceso aparte que hay que conciliar a mano.",
+        features: [
+            { name: "Desarrollo de tiendas virtuales" },
+            { name: "Integración de e-commerce con sistemas externos" },
+            { name: "Optimización de plataformas" },
+            { name: "WordPress y WooCommerce" },
+            { name: "Arquitectura de soluciones digitales" },
         ],
     },
 ];
+
 
 export const dataPortfolio = [
 

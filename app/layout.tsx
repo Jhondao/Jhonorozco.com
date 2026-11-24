@@ -11,24 +11,26 @@ const urbanist = Urbanist({ subsets: ["latin"] });
 
 const siteUrl = "https://jhonorozco.com";
 const siteDescription =
-  "Desarrollador Full Stack / Frontend freelance especializado en React, Next.js, React Native y Drupal. Creo sitios y aplicaciones web y móviles modernas, rápidas y a medida para negocios en Colombia y Latinoamérica.";
+  "Profesional de Ingeniería de Sistemas especializado en integración de sistemas, automatización de procesos y desarrollo de software para empresas. Conecto plataformas, automatizo operaciones y desarrollo soluciones a medida con React, Next.js, APIs y n8n.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Jhon Orozco | Desarrollador Full Stack / Frontend",
+    default: "Jhon Orozco | Integración de Sistemas y Desarrollo de Software",
     template: "%s | Jhon Orozco",
   },
   description: siteDescription,
   keywords: [
-    "desarrollador web freelance",
-    "desarrollador full stack",
-    "desarrollador frontend",
-    "React Native",
-    "Next.js",
+    "integración de sistemas",
+    "integración ERP y e-commerce",
+    "automatización de procesos",
+    "desarrollo de APIs",
+    "desarrollo de software a medida",
+    "integración de plataformas digitales",
+    "desarrollo e-commerce",
     "React",
-    "diseño UI/UX",
-    "desarrollo web Colombia",
+    "Next.js",
+    "n8n",
   ],
   icons: {
     icon: "/favicon.ico",
@@ -43,21 +45,21 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_CO",
     url: siteUrl,
-    siteName: "Jhon Orozco | Desarrollador Web",
-    title: "Jhon Orozco | Desarrollador Full Stack / Frontend",
+    siteName: "Jhon Orozco | Integración y Desarrollo de Software",
+    title: "Jhon Orozco | Integración de Sistemas y Desarrollo de Software",
     description: siteDescription,
     images: [
       {
         url: "/imagen_perfil_jhonorozco.png",
         width: 1000,
         height: 1000,
-        alt: "Jhon Orozco - Full Stack / Frontend Developer",
+        alt: "Jhon Orozco - Integración de Sistemas y Desarrollo de Software",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jhon Orozco | Desarrollador Full Stack / Frontend",
+    title: "Jhon Orozco | Integración de Sistemas y Desarrollo de Software",
     description: siteDescription,
     images: ["/imagen_perfil_jhonorozco.png"],
   },
@@ -70,14 +72,14 @@ const personJsonLd = {
   alternateName: "Jhon Orozco",
   url: siteUrl,
   image: `${siteUrl}/imagen_perfil_jhonorozco.png`,
-  jobTitle: "Full Stack / Frontend Developer",
+  jobTitle: "Integración de Sistemas y Desarrollo de Software",
   description: siteDescription,
   email: "mailto:jhondao.desarrollo@hotmail.com",
   sameAs: [
     "https://www.linkedin.com/in/jhondao-orozco/",
     "https://github.com/jhondao",
   ],
-  knowsAbout: ["React", "Next.js", "React Native", "TypeScript", "Drupal", "Tailwind CSS", "UI/UX Design"],
+  knowsAbout: ["Integración de Sistemas", "Automatización de Procesos", "APIs REST", "n8n", "React", "Next.js", "TypeScript", "Drupal"],
 };
 
 export default function RootLayout({

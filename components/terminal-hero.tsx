@@ -9,18 +9,18 @@ type ScriptLine =
 
 const script: ScriptLine[] = [
     { type: "prompt", text: "whoami" },
-    { type: "output", text: "Full Stack / Frontend Developer", className: "text-cyan-400 font-semibold" },
+    { type: "output", text: "Jhon Orozco — Ingeniería de Sistemas", className: "text-cyan-400 font-semibold" },
     { type: "blank" },
-    { type: "prompt", text: "cat stack.json" },
-    { type: "output", text: "{" },
-    { type: "output", text: '  "frontend": ["React", "Next.js", "TypeScript"],' },
-    { type: "output", text: '  "mobile": ["React Native"],' },
-    { type: "output", text: '  "backend": ["REST APIs", "Drupal", "PHP"]' },
-    { type: "output", text: "}" },
+    { type: "prompt", text: "cat mision.txt" },
+    { type: "output", text: "Conectar sistemas, automatizar procesos" },
+    { type: "output", text: "y desarrollar soluciones tecnológicas" },
+    { type: "output", text: "para que tu empresa opere mejor." },
     { type: "blank" },
-    { type: "prompt", text: "./deploy.sh --prod" },
-    { type: "output", text: "✓ Build completado", className: "text-green-400" },
-    { type: "output", text: "✓ Desplegado en producción", className: "text-green-400" },
+    { type: "prompt", text: "./soluciones.sh --list" },
+    { type: "output", text: "✓ Integración de sistemas (ERP, APIs)", className: "text-green-400" },
+    { type: "output", text: "✓ Automatización de procesos (n8n)", className: "text-green-400" },
+    { type: "output", text: "✓ Desarrollo de software a medida", className: "text-green-400" },
+    { type: "output", text: "✓ E-commerce y plataformas digitales", className: "text-green-400" },
 ]
 
 const TYPE_SPEED = 45

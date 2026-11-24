@@ -11,11 +11,11 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8">
                     {/* Brand Section */}
                     <div className="space-y-4">
-                        <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-600 dark:from-blue-400 dark:to-blue-400 bg-clip-text text-transparent">
+                        <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 bg-clip-text text-transparent">
                             JhonOrozco.com
                         </h3>
                         <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
-                            Desarrollador web especializado en crear experiencias digitales modernas y funcionales que impulsan negocios.
+                            Conecto sistemas, automatizo procesos y desarrollo soluciones tecnológicas para empresas.
                         </p>
                         {/* Social Links */}
                         <div className="flex gap-3">
@@ -23,21 +23,21 @@ const Footer = () => {
                                 href="https://github.com/jhondao"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="p-2 rounded-lg bg-slate-200 dark:bg-slate-800 hover:bg-gradient-to-br hover:from-blue-500 hover:to-blue-600 text-slate-700 dark:text-slate-300 hover:text-white transition-all duration-300 hover:scale-110"
+                                className="p-2 rounded-lg bg-slate-200 dark:bg-slate-800 hover:bg-gradient-to-br hover:from-blue-500 hover:to-cyan-600 text-slate-700 dark:text-slate-300 hover:text-white transition-all duration-300 hover:scale-110"
                             >
                                 <Github className="w-5 h-5" />
                             </a>
                             <a
-                                href="https://www.linkedin.com/in/jhon-dayron-orozco-caicedo-5b1b3b1b3/"
+                                href="https://www.linkedin.com/in/jhondao-orozco/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="p-2 rounded-lg bg-slate-200 dark:bg-slate-800 hover:bg-gradient-to-br hover:from-blue-500 hover:to-blue-600 text-slate-700 dark:text-slate-300 hover:text-white transition-all duration-300 hover:scale-110"
+                                className="p-2 rounded-lg bg-slate-200 dark:bg-slate-800 hover:bg-gradient-to-br hover:from-blue-500 hover:to-cyan-600 text-slate-700 dark:text-slate-300 hover:text-white transition-all duration-300 hover:scale-110"
                             >
                                 <Linkedin className="w-5 h-5" />
                             </a>
                             <a
                                 href="mailto:jhondao.desarrollo@hotmail.com"
-                                className="p-2 rounded-lg bg-slate-200 dark:bg-slate-800 hover:bg-gradient-to-br hover:from-blue-500 hover:to-blue-600 text-slate-700 dark:text-slate-300 hover:text-white transition-all duration-300 hover:scale-110"
+                                className="p-2 rounded-lg bg-slate-200 dark:bg-slate-800 hover:bg-gradient-to-br hover:from-blue-500 hover:to-cyan-600 text-slate-700 dark:text-slate-300 hover:text-white transition-all duration-300 hover:scale-110"
                             >
                                 <Mail className="w-5 h-5" />
                             </a>
@@ -51,10 +51,16 @@ const Footer = () => {
                         </h4>
                         <nav className="flex flex-col gap-2">
                             <Link
-                                href="/#services"
+                                href="/soluciones"
                                 className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm"
                             >
-                                Servicios
+                                Soluciones
+                            </Link>
+                            <Link
+                                href="/laboratorio"
+                                className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm"
+                            >
+                                Laboratorio
                             </Link>
                             <Link
                                 href="/#portfolio"
@@ -80,13 +86,13 @@ const Footer = () => {
                     {/* Services */}
                     <div>
                         <h4 className="text-lg font-semibold text-slate-800 dark:text-white mb-4">
-                            Servicios
+                            Soluciones
                         </h4>
                         <ul className="flex flex-col gap-2 text-sm text-slate-600 dark:text-slate-400">
-                            <li>Desarrollo Web</li>
-                            <li>Diseño UI/UX</li>
-                            <li>E-commerce</li>
-                            <li>WordPress & CMS</li>
+                            <li>Integración de Sistemas</li>
+                            <li>Automatización de Procesos</li>
+                            <li>Desarrollo de Software</li>
+                            <li>E-commerce y Plataformas Digitales</li>
                         </ul>
                     </div>
                 </div>
@@ -106,7 +112,7 @@ const Footer = () => {
             </div>
 
             {/* Decorative gradient */}
-            <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-blue-500 to-blue-500"></div>
+            <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-cyan-500 to-blue-500"></div>
         </footer>
     );
 }
